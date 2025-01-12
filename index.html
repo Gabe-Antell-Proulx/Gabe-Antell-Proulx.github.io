@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mnemonicle - Daily trivia!</title>
+  <link href="allstyles.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="logo.png">
+</head>
+
+<body>
+  <div class="disable-selection">
+    <div class="split up"></div>
+    <div class="split mid"></div>
+    <div class="split low"></div>
+    <div class="split down"></div>
+
+    <script src="script.js"></script>
+    <img src='logo2.png' style='height:150px; width:145px; position:absolute; left:50%; top: 110px;transform: translate(-50%); '>
+    <div style="position:absolute; left: 50%; top: 250px; transform: translate(-50%); font-size:50px; font-weight: bold;">Mnemonicle</div>
+    <div style="position:absolute; font-size:20px; font-weight: normal; left:50%; top:320px;transform: translate(-50%); ">A daily trivia game!</div>
+    <div id='number_puzzle' style="position:absolute; font-size:15px; font-weight: normal; left:50%; top:480px;transform: translate(-50%); "></div>
+    <div style="position:absolute; font-size:15px; font-weight: normal; left:50%; top:505px;transform: translate(-50%); ">by Gabriel Antell-Proulx</div>
+    <a href="/index2.html" class=play style="font-weight: bold; position:absolute; left:50%; top:360px;transform: translate(-50%); ">Play</a>
+    <button onclick="openInstructions()" style="left:50%; background:none; transform:translate(0,430px);border:0; font-size:20px;color:blue;"><u>How to play</u></button>    
+    <div id='instructionsPage' class='instructionsPopUp'><b>
+      <div style="text-align: center;"><font size=+3>How to Play</font><br></b>
+      <font size=+1>You have four tries to guess the Mnemonicle<ul></font></div>
+      <li>Enter your guesses verticly into the colored squares in the grid (you do not need to guess real words)</li>
+      <li>A theme will help you figure out what the finished Mnemonicle will be </li>
+      <li>The letters associated with each row are also the first letters of the answers to the trivia questions given on the right side of the grid</li>
+      <li>If you get a letter correct, that row will turn green, and you will not be able to type anything into that row</li>
+      <li>If you get a letter incorrect, the square will turn gray, and the associated trivia question will get easier</li>
+      </ul>
+      <img src='instructionsExamples.png' style='height:205px; width:450px; position:absolute; left:25px; top: 270px;'>
+      <button id='X_instructions' class='X X_instructions' onclick="Xout('instructionsPage','X_instructions')" style='visibility: hidden;'>x</button>
+    </div>
+    <script>
+      //change startDate to start date
+      const today = new Date();
+      const startDate = new Date('2024-12-12T18:30:00-07:00');
+      const number = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+      document.getElementById('number_puzzle').innerHTML = "Mnemonicle #" + number;
+      function Xout(page, X){
+        document.getElementById(page).style.visibility = 'hidden';
+        document.getElementById(X).style.visibility = 'hidden'; 
+      }
+      function openInstructions() {
+        document.getElementById('instructionsPage').style.visibility = 'visible';
+        document.getElementById('X_instructions').style.visibility = 'visible';
+      }
+    </script>
+  </div>
+</body>

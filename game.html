@@ -285,6 +285,8 @@
     const startDate = new Date('2024-12-02T18:30:00-07:00');
     const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
+    document.getElementById("myTextField").focus();
+    
     var avgScore = 0;
     var pageOpen = false;
     var streak = 0;

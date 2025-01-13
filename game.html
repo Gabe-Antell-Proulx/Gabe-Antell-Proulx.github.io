@@ -24,6 +24,11 @@
     </h1>
     <hr>
     <div class='hidden' id='trash'></div>
+    
+    <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
+      <center>I am still working on coding mobile, try re-entering the website on a computer browser!</center>
+    </h1>
+    
     <div class='buttons' id='buttons'>
       <button onclick='openInstructions()' id='instruction' class="dot" style="left:100px; top:0px; font-weight:bold;">?</button>
       <button onclick='openInformation()' id='information' class="dot" style="left:50px; top:0px; font-weight:bold;">i</button>
@@ -118,18 +123,14 @@
     <div id='copyscreen' class='copyscreen' style='visibility: hidden'>Copied results to clipboard!</div>
 
     <input type="text" id="myTextField" value="Text field.">
-
-    <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
-      <center>I am still working on coding mobile</center>
-    </h1>
     </div>
   <script>
-    /*if (window.matchMedia("(max-width: 767px)").matches) {
+    if (window.matchMedia("(max-width: 767px)").matches) {
       document.getElementById('all').style.visibility = 'hidden';
       document.body.style.backgroundColor = "#111111";
       document.getElementById('mobilePage').style.visibility = 'visible';
       //mobile device
-    }*/
+    }
     const puzzles = [
         {
           answers: ['F', 'E', 'T', 'A'],

@@ -19,10 +19,6 @@
 <body>
   <div id='all' class= 'disable-selection' style='left:20%;'>
     
-    <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
-      <center>I am still working on coding mobile</center>
-    </h1>
-    
     <h1 style="font-family: Impact">
       <center><b><span style='color:#aaffaa;font-size: 50px;-webkit-text-stroke: 1px black;'>Mn</span><span style='color:#bbffff;font-size: 50px;-webkit-text-stroke: 1px black;'>em</span><span style='color:#aaccff;font-size: 50px;-webkit-text-stroke: 1px black;'>oni</span><span style='color:#ddaaff;font-size: 50px;-webkit-text-stroke: 1px black;'>cle</span></b></center>
     </h1>
@@ -122,6 +118,10 @@
     <div id='copyscreen' class='copyscreen' style='visibility: hidden'>Copied results to clipboard!</div>
 
     <input type="text" id="myTextField" value="Text field.">
+
+    <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
+      <center>I am still working on coding mobile</center>
+    </h1>
     </div>
   <script>
     /*if (window.matchMedia("(max-width: 767px)").matches) {
@@ -291,7 +291,7 @@
     
     document.getElementById("all").addEventListener('click', function(event) {
       document.getElementById("myTextField").focus();
-      alert("Keyboard up!");
+      navigator.virtualKeyboard.show();
     });
     
     document.getElementById("myTextField").style.visibility = "hidden";

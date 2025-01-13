@@ -135,7 +135,7 @@
     }
     loadState();
 
-    stringPastScore = localStorage.getItem('score');
+    let stringPastScore = localStorage.getItem('score');
     pastScore = JSON.parse(stringPastScore);
     if (pastScore == "" || pastScore == null) {
       pastScore = [];

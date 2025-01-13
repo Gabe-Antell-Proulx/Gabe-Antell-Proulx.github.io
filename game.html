@@ -116,8 +116,7 @@
 
     <div id='copyscreen' class='copyscreen' style='visibility: hidden'>Copied results to clipboard!</div>
 
-    <div style="left:0px;top:0px;width:30px;height:30px;background-color:white;"></div>
-    <input type="text" class='textBox' id="myTextField" style="border:none;left:0px;top:0px;width:10px;height:10px;">
+    <input type="text" id="myTextField">
   
     <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
       <center>I am still working on coding mobile</center>
@@ -288,7 +287,12 @@
     const startDate = new Date('2024-12-02T18:30:00-07:00');
     const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
-    document.getElementById("myTextField").focus();
+    
+    document.addEventListener('click', function(event) {
+      document.getElementById("myTextField").focus();
+    });
+    
+    document.getElementById("myTextField").style.visibility = "hidden";
     
     var avgScore = 0;
     var pageOpen = false;

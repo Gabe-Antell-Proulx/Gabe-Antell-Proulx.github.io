@@ -164,13 +164,13 @@ emoji: '⛳'
     "His: This man died after an early morning incident near Weehawken, New Jersey. (Surname)",
     "His: This man used the pseudonym Publius for a series of essays this man wrote with John Jay and James Madison. (Surname)",
 "His: This man was instrumental in creating the U.S. financial system and served as the first Secretary of the Treasury. (Surname)",
-    "His: This immigrant from the Caribbean is depicted on the $10 bill and was killed in a duel with Aaron Burr. (Surname)",
+    "His: This immigrant from the Caribbean is depicted on the $10 bill and was killed in a duel with Aaron Burr. (Surname)"
   ],
   culQuestions: [
         "Cul: This team was founded in 1926 by Abe Saperstein.",
         "Cul: This team is associated with their theme song, 'Sweet Georgia Brown,' and popularized spinning ball stunts.",
-        "Cul: This team sports a winning percentage of over 98 percent, largely from games against the Washington Generals."
-        "Cul: This basketball team, famous for their comedy and basketball tricks, has played in over 120 countries.",
+        "Cul: This team sports a winning percentage of over 98 percent, largely from games against the Washington Generals.",
+        "Cul: This basketball team, famous for their comedy and basketball tricks, has played in over 120 countries."
   ],
   artQuestions: [
     "Art: This Shakespearean play is set in Elsinore Castle and follows the story of a Danish prince seeking revenge.",
@@ -200,13 +200,13 @@ emoji: '⛳'
         "Cul: Successful content creators on this platform are given “Play Button” awards.",
     "Cul: In 2021, the counts of dislikes for individual posts on this platform were hidden.",
     "Cul: In 2020, this platform released a function called 'Shorts.'",
-    "Cul: This service is the second-most visited website in the world, after Google, which owns it.",
+    "Cul: This service is the second-most visited website in the world, after Google, which owns it."
   ],
   artQuestions: [
     "Art: This work's female characters include Nausicaa and Penelope.",
         "Art: This work features encounters with the Cyclops, the Sirens, and the goddess Circe.",
     "Art: This poem complements 'The Iliad' and is considered one of the greatest works of Western literature.",
-        "Art: This epic poem, attributed to Homer, follows the 10-year journey of a man back to Ithaca after the Trojan War.",
+        "Art: This epic poem, attributed to Homer, follows the 10-year journey of a man back to Ithaca after the Trojan War."
   ],
   emoji: '🪀'
 }

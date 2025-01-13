@@ -31,10 +31,6 @@
       <button onclick='openStats()' id='inspection' class="dot" style="left:0px; top:0px; font-weight:bold; font-size: 35px;"><img src='profits.png' style="height: 17px; width: 17px;"></img></button>
     </div>
     <h1 style="font-family: 'Trebuchet MS';" id='themeText'></h1>
-
-<h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'>
-      <center>I am still working on coding mobile, try re-entering the website on a computer browser!</center>
-    </h1>
     
     <div class='grid' id='grid'>
       <div class=questions id='sciq' style='color:#77cc77; left:340px; top:0px;'><span
@@ -126,12 +122,6 @@
     <input type="text" id="myTextField" value="Text field.">
     </div>
   <script>
-    if (window.matchMedia("(max-width: 767px)").matches) {
-      document.getElementById('all').style.visibility = 'hidden';
-      document.body.style.backgroundColor = "#111111";
-      document.getElementById('mobilePage').style.visibility = 'visible';
-      //mobile device
-    }
     const puzzles = [
         {
           answers: ['F', 'E', 'T', 'A'],

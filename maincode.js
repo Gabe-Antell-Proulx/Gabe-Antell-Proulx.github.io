@@ -85,7 +85,7 @@
       localStorage.setItem('update', JSON.stringify(update));
     }
     function loadState() {
-      k = 0;
+      var k = 0;
       const gameStateString = localStorage.getItem('update');
       const gameState = JSON.parse(gameStateString);
       if (gameState == null) {
@@ -106,7 +106,7 @@
         enter_keys_clicked = gameState[50];
         gameWon = gameState[48];
         won = gameState[54];
-        for (caterpillar=0; caterpillar<4; caterpillar++){
+        for (let caterpillar=0; caterpillar<4; caterpillar++){
           if (won[caterpillar]){
             document.getElementById(logger_questions[caterpillar]).innerHTML = "You got it!";
           }
@@ -115,8 +115,8 @@
           }
         }
         question_levels = gameState[53];
-        for (b=0;b<4;b++){
-          for (l=0; l<=question_levels[b];l++){
+        for (let b=0;b<4;b++){
+          for (let l=0; l<=question_levels[b];l++){
             document.getElementById(logger_questionPages[b]).innerHTML += "<li>" + logger_prompts[b][l].substr(4, logger_prompts[b][l].length) + "</li>";
           }
         }
@@ -128,7 +128,7 @@
         }
       }
       else{
-        for (x=0;x<=3;x++){
+        for (let x=0;x<=3;x++){
           document.getElementById(logger_questionPages[x]).innerHTML += "<li>" + logger_prompts[x][0].substr(4, logger_prompts[x][0].length) + "</li>";
         }
       }
@@ -269,7 +269,7 @@
               function endAnimationFunction(){
                 for (let i = 1; i <= (4 - (enter_keys_clicked / 5)); i++) {
                   setTimeout(() => {
-                    for (x=0;x<4;x++){
+                    for (let x=0;x<4;x++){
                       if (won[x]==false && i == 1){
                         if (keys_clicked < 18) {
                           document.getElementById(logger[enter_keys_clicked + x + 5]).style.backgroundColor = color_log[x];

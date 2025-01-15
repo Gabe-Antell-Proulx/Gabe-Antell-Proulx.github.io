@@ -209,5 +209,36 @@ emoji: '⛳'
         "Art: This epic poem, attributed to Homer, follows the 10-year journey of a man back to Ithaca after the Trojan War."
   ],
   emoji: '🪀'
+},
+  { 
+answers: ['S', 'A', 'L', 'T'], 
+theme: "It's the silly season", 
+fullanswers: ['<b>S</b>ine', '<b>A</b>ndes', 'The <b>L</b>ion King', '<b>T</b>apestry'], 
+sciQuestions: [ 
+"Sci: This fucntion's namesake law is used to solve the remaining sides and angles in an ASA (angle-side-angle) triangle.", 
+"Sci: When this function is applied to pi over 2, you get 1.", 
+"Sci: The reciprocal of this function is cosecant.", 
+"Sci: This trigonometric function represents the ratio of the opposite side to the hypotenuse in a right triangle." 
+], 
+hisQuestions: [ 
+"His: One culture from this region worshiped the earth goddess Pachamama and the sun god Inti.", 
+"His: This range is home to Aconcagua, the highest peak outside of Asia.",
+"His: This mountain system served as the backbone of the Inca Empire and features iconic sites like Machu Picchu.", 
+"His: This mountain range, the longest in the world, spans seven countries including Peru, Colombia, and Argentina." 
+], 
+culQuestions: [ 
+"Cul: This Disney film features a young lion named Simba and his journey to reclaim his throne.", 
+'Cul: One Hollywood exec described this film as "Hamlet meets Bambi in Africa."', 
+"Cul: Songs from this movie include 'The Circle of Life' and 'Can You Feel the Love Tonight.'", 
+"Cul: This Disney film features a young lion named Simba and his journey to reclaim his throne." 
+], 
+artQuestions: [ 
+"Art: A famous example of this art is the Lady and the Unicorn series, created in the late 15th century.", 
+"Art: One work in this medium, depicting the Battle of Hastings, includes Halley's comet in the background.", 
+"Art: The Bayeux one of these depicts the Norman conquest of England in 1066.", 
+"Art: This form of textile art involves weaving colored threads to create pictures or designs." 
+], 
+emoji: '🧂' 
 }
+
 ]

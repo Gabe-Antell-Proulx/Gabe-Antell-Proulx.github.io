@@ -152,7 +152,7 @@ emoji: '⛳'
 },
 {
   answers: ['S', 'H', 'H', 'H'],
-  theme: "Inside voices, please",
+  theme: "Teacher's word",
   fullanswers: ['The <b>S</b>un', 'Alexander <b>H</b>amilton', 'The <b>H</b>arlem Globetrotters', '<b>H</b>amlet'],
   sciQuestions: [
 "Sci: The Voyager probes are currently measuring how far the influence of this body extends.",
@@ -239,6 +239,36 @@ artQuestions: [
 "Art: This form of textile art involves weaving colored threads to create pictures or designs." 
 ], 
 emoji: '🧂' 
+},
+  {
+  answers: ['C', 'H', 'A', 'D'],
+  theme: "Fallout of Y2K",
+  fullanswers: ['George Washington <b>C</b>arver', '<b>H</b>annibal Barca', "<b>A</b>vatar: The Last Airbender", '<b>D</b>racula'],
+  sciQuestions: [
+    "Sci: This agricultural innovator was a prominent educator at the Tuskegee Institute in Alabama. (Surname)",
+    "Sci: This inventor famously advocated for crop rotation to improve soil fertility and reduce reliance on cotton. (Surname)",
+    "Sci: This American scientist and inventor, born into slavery, became one of the most prominent African American researchers of the early 20th century. (Surname)",
+    "Sci: This scientist developed hundreds of uses for peanuts, sweet potatoes, and other crops, revolutionizing agriculture in the southern United States. (Surname)",
+  ],
+  hisQuestions: [
+    "His: While walking through the Arno marshes, this commander contracted a disease that propelled him to gauge out his own right eye. (First Name)",
+    "His: This commander won a major victory at the Battle of Cannae, one of the most devastating defeats in Roman history. (First Name)",
+    "His: This son of Hamilcar Barca first needed to cross the Pyrenees mountains before his more famous act. (First Name)",
+    "His: This Carthaginian general famously crossed the Alps with war elephants to confront the Romans during the Second Punic War. (First Name)"
+  ],
+  culQuestions: [
+    "Cul: Michael Dante DiMartino and Bryan Konietzko are among the creators of this show.",
+    "Cul: Lesser known characters in this show include a cabbage merchant, Pakku, and Momo.",
+    "Cul: The title character of this cartoon series, as well as his air bison, were frozen in a ball of ice for over a century.",
+    "Cul: Cul: Four elemental nations engage in a 100 year war in this Nickelodeon series."
+  ],
+  artQuestions: [
+    "Art: This title character is based on the historical figure Vlad the Impaler.",
+    "Art: The novel is written in an epistolary style and includes the writings of Jonathan Harker and his wife Mina, who the titular character takes control of before being killed.",
+    "Art: This Bram Stoker novel was the inspiration for the film Nosferatu.",
+    "Art: This character is synonymous with the vampire archetype and has inspired countless adaptations in film, theater, and literature."
+  ],
+  emoji: '🇹🇩'
 }
 
 ]

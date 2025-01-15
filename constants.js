@@ -248,7 +248,7 @@ emoji: '🧂'
     "Sci: This agricultural innovator was a prominent educator at the Tuskegee Institute in Alabama. (Surname)",
     "Sci: This inventor famously advocated for crop rotation to improve soil fertility and reduce reliance on cotton. (Surname)",
     "Sci: This American scientist and inventor, born into slavery, became one of the most prominent African American researchers of the early 20th century. (Surname)",
-    "Sci: This scientist developed hundreds of uses for peanuts, sweet potatoes, and other crops, revolutionizing agriculture in the southern United States. (Surname)",
+    "Sci: This scientist developed hundreds of uses for peanuts, sweet potatoes, and other crops, revolutionizing agriculture in the southern United States. (Surname)"
   ],
   hisQuestions: [
     "His: While walking through the Arno marshes, this commander contracted a disease that propelled him to gauge out his own right eye. (First Name)",
@@ -269,6 +269,36 @@ emoji: '🧂'
     "Art: This character is synonymous with the vampire archetype and has inspired countless adaptations in film, theater, and literature."
   ],
   emoji: '🇹🇩'
+},
+{
+  answers: ['P', 'S', 'A', 'T'],
+  theme: "Jr's challenge",
+  fullanswers: ['<b>P</b>olonium', 'The <b>S</b>outhern Ocean', "<b>A</b>nt Man", '<b>T</b>ale of Two Cities'],
+  sciQuestions: [
+    "Sci: Both the mathematicians who created the Banach-Tarski Paradox were from this country.",
+    "Sci: The scientists Zygalski, Rozycki, and Rejewski from this nation gave the cipher for the Enigma code to the Allies before the German invasion of this country.",
+    "Sci: Sci: Apart from radium, the only other element Marie Curie discovered was named after this country.",
+    "Sci: This is the home country of Alfred Tarski, which is part of its Lwów-Warsaw School."
+  ],
+  hisQuestions: [
+    "His: This vast body of water includes the Amundsen Sea.",
+    "His: This ocean is the smallest of Earth's five named oceans.",
+    "His: Although removed from many textbooks in the late 1900s, this ocean was finally recognized by the IHO in the year 2000.",
+    "His: This ocean is also known as the Antarctic Ocean due to its location."
+  ],
+  culQuestions: [
+    "Cul: This Marvel superhero maintains his powers using Pym particles.",
+    "Cul: This character, who starred in a 2015 film, was originally a burglar before becoming a hero.",
+    "Cul: This superhero works alongside the Wasp and can control insects with a special helmet.",
+        "Cul: This superhero, portrayed by Paul Rudd, can shrink to a very small size, about the size of a certain animal."
+  ],
+  artQuestions: [
+        'Art: In the beginning of this novel, a character delivers a letter that states "Recalled to Life."',
+    "Art: This book contrasts the lives of Charles Darnay and Sydney Carton against the backdrop of revolutionary turmoil.",
+    "Art: This novel begins with the famous line, 'It was the best of times, it was the worst of times.'",
+        "Art: The titular establishments in this Charles Dickens novel are London and Paris."
+  ],
+  emoji: '✍'
 }
 
 ]

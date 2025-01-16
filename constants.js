@@ -299,6 +299,36 @@ emoji: '🧂'
         "Art: The titular establishments in this Charles Dickens novel are London and Paris."
   ],
   emoji: '✍'
+},
+{
+    answers: ['I', 'N', 'R', 'I'],
+    theme: "Cross words",
+    fullanswers: ['<b>I</b>somers', '<b>N</b>ewark', "<b>R</b>ing", '<b>I</b>ago'],
+    sciQuestions: [ 
+            "Sci: The Le Bel-van’t Hoff rule counts the number of different molecules resulting from one form of this phenomenon. ",  
+      "Sci: Enantiomers are a subset of these compounds.", 
+        "Sci: Together, glucose and fructose are these substances.", 
+        "Sci: This term refers to compounds with the same molecular formula but different structures or arrangements of atoms."
+    ],
+    hisQuestions: [  
+        "His: This city is home to Liberty International Airport and was founded by Puritans in 1666.",
+            "His: Philip Roth grew up in this city.",
+      "His: This New Jersey city's mayors have included Cory Booker.",
+        "His: This city is the most populous in New Jersey and is known for its proximity to New York City."
+    ],
+    culQuestions: [ 
+        'Cul: One variety of these things is how Lorde "cut" her "teeth" according to her hit "Royals."', 
+        "Cul: Johnny Cash released a song about one of these objects 'of Fire.'", 
+       "Cul: A company by this name, originally pitched on Shark Tank as 'Doorbot,' was acquired by Amazon in 2018 for $1 billion.", 
+        "Cul: This is the object destroyed in Mount Doom by Frodo Baggins."
+    ],
+    artQuestions: [ 
+        "Art: This character's manipulative schemes involve planting a handkerchief to incite jealousy.", 
+                    "Art: This villain famously said, 'I am not what I am.'",
+        "Art: This character's name has become synonymous with cunning and betrayal.", 
+            "Art: This Shakespearean character is the antagonist in the tragedy 'Othello.'"
+    ],
+    emoji: '✝'
 }
 
 ]

@@ -93,6 +93,7 @@
         const gameStateString = localStorage.getItem('update');
         const gameState = JSON.parse(gameStateString);
       }
+     console.log(gameState);
       if (gameState[51] == number) {
         for (let i = 0; i < logger.length; i++) {
           if (logger[i] != '') {

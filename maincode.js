@@ -60,7 +60,7 @@
     document.getElementById('artq').innerHTML = artQuestions[0];
 
     function saveState() {
-      update = [];
+      let update = [];
       for (let i = 0; i < logger.length; i++) {
         if (logger[i] != '') {
           update.push(document.getElementById(logger[i]).innerHTML);

@@ -4,14 +4,6 @@
     const startDate = new Date('2024-12-02T18:30:00-07:00');
     const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
-    
-    document.getElementById("all").addEventListener('click', function(event) {
-      document.getElementById("myTextField").focus();
-      navigator.virtualKeyboard.show();
-    });
-    
-    document.getElementById("myTextField").style.visibility = "hidden";
-    
     var avgScore = 0;
     var pageOpen = false;
     var streak = 0;
@@ -290,6 +282,7 @@
                       document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
                     }
                   }, i * 200);
+                  var i = i;
                 }
                 setTimeout(() => {
                 enter_keys_clicked += 5;

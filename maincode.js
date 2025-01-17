@@ -295,7 +295,7 @@
                 }
                 animationHappening = false;
                 document.body.removeEventListener("keydown", eventc);
-                },(4 - (enter_keys_clicked / 5) * 200)
+                },((4 - (enter_keys_clicked / 5)) * 200))
               }
               function checkIfRight(){
                 if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {

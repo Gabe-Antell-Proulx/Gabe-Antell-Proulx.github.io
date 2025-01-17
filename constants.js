@@ -329,6 +329,36 @@ emoji: '🧂'
             "Art: This Shakespearean character is the antagonist in the tragedy 'Othello.'"
     ],
     emoji: '✝'
-}
+},
+  {
+    answers: ['E', 'L', 'M', 'O'],
+    theme: "Friend of vampires and monsters",
+    fullanswers: ['The <b>e</b>ar', 'The Battle of <b>L</b>exington', "<b>M</b>ickey Mouse", '<b>O</b>rpheus'],
+    sciQuestions: [
+        "Sci: The outer portion of this body part is called the pinna or auricle.",
+        "Sci: In this organ, the eighth cranial nerve is connected to hair cells that respond to different frequencies of vibrations.",
+          "Sci: This part of the human body contains the cochlea.",
+      "Sci: This sensory organ transmits sound waves to the brain through the auditory nerve."
+    ],
+    hisQuestions: [
+        "His: Isaac Davis was killed at the North Bridge during this battle, which started after Thomas Gage sent troops after munitions hidden on Barrett’s Farm.",
+        "His: This Massachusetts battle included Paul Revere's famous midnight ride to warn the colonists.",
+        "His: 'The shot heard 'round the world' is often associated with this historical event.",
+        "His: This first battle of the Revolutionary War was fought between British soldiers and American militiamen."
+    ],
+    culQuestions: [
+        "Cul: This character meets Oswald the Rabbit in the Wasteland in a game titled Epic [this character].",
+        "Cul: This cartoon character debuted in the short film 'Steamboat Willie' in 1928.",
+        "Cul: This character remained silent until in 1929 he said his first line: 'Hot dog! Hot dog!'",
+        "Cul: Walt Disney himself provided the original voice for this iconic character."
+    ],
+    artQuestions: [
+        "Art: There have been many compositions based on the story of this character, include ones by Claudio Monteverdi, Christoph Willibald Gluck, and Jacques Offenbach.",
+        "Art: Rainer Maria Rilke penned a sequence of “sonnets to” this musician.",
+        "Art: This figure from Greek mythology is said to be able to move stones with his music.",
+        "Art: This figure's tragic love story with Eurydice inspired operas, plays, and films over centuries."
+    ],
+    emoji: '👹'
+  }
 
 ]

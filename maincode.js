@@ -282,7 +282,6 @@
                       document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
                     }
                   }, i * 200);
-                  var i = i;
                 }
                 setTimeout(() => {
                 enter_keys_clicked += 5;
@@ -296,7 +295,7 @@
                 }
                 animationHappening = false;
                 document.body.removeEventListener("keydown", eventc);
-                },i * 200)
+                },(4 - (enter_keys_clicked / 5) * 200)
               }
               function checkIfRight(){
                 if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {

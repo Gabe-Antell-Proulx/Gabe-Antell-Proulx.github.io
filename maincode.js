@@ -192,6 +192,7 @@ function openInstructions() {
    document.getElementById('instructionsPage').style.visibility = 'visible';
    document.getElementById('X_instructions').style.visibility = 'visible';
  }
+ return false;
 }
 
 function openInformation() {

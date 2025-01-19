@@ -121,4 +121,17 @@
     <div id='copyscreen' class='copyscreen' style='visibility: hidden'>Copied results to clipboard!</div>
 
     </div>
+  <script>
+    function openStats() {
+     if (pageOpen == false) {
+       pageOpen = true;
+       var avgScore = Math.round(calculateAverage(pastScore) * 10) / 10;
+       var streak = streakList.length;
+       document.getElementById('streakNumber').innerHTML = streak;
+       document.getElementById('averageScoreNumber').innerHTML = avgScore;
+       document.getElementById('statsPage').style.visibility = 'visible';
+       document.getElementById('X_stats').style.visibility = 'visible';
+     }
+    }
+  </script>
 </body>

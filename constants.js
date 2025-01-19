@@ -359,6 +359,37 @@ emoji: '🧂'
         "Art: This figure's tragic love story with Eurydice inspired operas, plays, and films over centuries."
     ],
     emoji: '👹'
-  }
+  },
+  {
+    answers: ['P', 'A', 'W', 'N'],
+    theme: "One-pointer",
+    fullanswers: ['<b>P</b>rimates', 'Susan B. <b>A</b>nthony', "<b>W</b>ashington Commanders", '<b>N</b>apoleon'],
+    sciQuestions: [
+              "Sci: The term for this taxonomic order comes from the Latin word for 'first' or 'chief.'",
+        "Sci: The fossil named 'Lucy' was a part of this order.",
+              "Sci: Members of this order are known for using opposable thumbs.",
+            "Sci: Humans, chimpanzees, and gorillas all belong to this biological order of mammals.",
+    ],
+    hisQuestions: [
+        "His: This person was the primary author of 'The Revolution,' a women's rights newspaper. (Surname)",
+        "His: This person was arrested for voting illegally in the 1872 presidential election. (Surname)",
+        "His: A U.S. dollar coin released in 1979 featured this person's portrait, making it the first American woman to appear on circulating currency. (Surname)",
+        "His: This activist helped pave the way for the 19th Amendment, granting women the right to vote in 1920. (Surname)"
+    ],
+    culQuestions: [
+        "Cul: This team is part of the NFC East division and plays its home games at FedExField. (City)",
+        "Cul: This team changed its name in 2022 to reflect a more inclusive identity. (City)",
+        "Cul: This team's burgundy and gold colors are iconic in the NFL. (City)",
+            "Cul: This NFL team, based in the D.C. area, was previously known as the Redskins. (City)"
+    ],
+    artQuestions: [
+              "Art: Beethoven's third symphony was originally going to be dedicated to this man. (First Name)",  
+      "Art: This person was the subject of an 1807 painting by Jacques-Louis David, which depicted his coronation. (First Name)",
+        "Art: Stanley Kubrick once planned a movie about this historical figure, often called 'The Little Corporal.' (First Name)",
+        "Art: This Emperor of France and military leader is also the central figure of Tolstoy's 'War and Peace.' (First Name)"
+    ],
+    emoji: '♟️'
+}
+
 
 ]

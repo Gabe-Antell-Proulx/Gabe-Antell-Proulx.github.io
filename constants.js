@@ -213,7 +213,7 @@ emoji: '⛳'
   { 
 answers: ['S', 'A', 'L', 'T'], 
 theme: "It's the silly season", 
-fullanswers: ['<b>S</b>ine', '<b>A</b>ndes', 'The <b>L</b>ion King', '<b>T</b>apestry'], 
+fullanswers: ['<b>S</b>ine', 'The <b>A</b>ndes', 'The <b>L</b>ion King', '<b>T</b>apestry'], 
 sciQuestions: [ 
 "Sci: This fucntion's namesake law is used to solve the remaining sides and angles in an ASA (angle-side-angle) triangle.", 
 "Sci: When this function is applied to pi over 2, you get 1.", 
@@ -333,7 +333,7 @@ emoji: '🧂'
   {
     answers: ['E', 'L', 'M', 'O'],
     theme: "Friend of vampires and monsters",
-    fullanswers: ['The <b>e</b>ar', 'The Battle of <b>L</b>exington', "<b>M</b>ickey Mouse", '<b>O</b>rpheus'],
+    fullanswers: ['The <b>E</b>ar', 'The Battle of <b>L</b>exington', "<b>M</b>ickey Mouse", '<b>O</b>rpheus'],
     sciQuestions: [
         "Sci: The outer portion of this body part is called the pinna or auricle.",
         "Sci: In this organ, the eighth cranial nerve is connected to hair cells that respond to different frequencies of vibrations.",
@@ -389,7 +389,36 @@ emoji: '🧂'
         "Art: This Emperor of France and military leader is also the central figure of Tolstoy's 'War and Peace.' (First Name)"
     ],
     emoji: '♟️'
+},
+{
+    answers: ['Y', 'M', 'C', 'A'],
+    theme: '"Young man, are you listening to me?"',
+    fullanswers: ['<b>Y</b> Chromosome', '<b>M</b>agna Carta', '<b>C</b>alvin and Hobbes', '<b>A</b>ristotle'],
+    sciQuestions: [ 
+        "Sci: Having 2 of these structures leads to above-average height and acne.",
+        "Sci: This structure has lost approximately 97% of its genetic material in the last 300 million years, while still retaining SRY.",
+        "Sci: With only 568, this chromosome contains the fewest genes.",
+        "Sci: This sex chromosome, which is only found in males, is not the X chromosome."
+    ],
+    hisQuestions: [ 
+        "His: A provision for the removal of all fish-weirs is the thirty-third of this document’s 63 clauses.",
+        "His: The signing of this document emerged from discontent at reparations for the Battle of Bouvines. ",
+        "His: This document was created by Stephen Langton to settle a dispute between a king and a group of barons.",
+        "His: This historical document, signed in 1215, limited the power of King John of England."
+    ],
+    culQuestions:[ 
+        "Cul: This work is titled after two philosophers: one Protestant reformer and one empiricist.",
+        "Cul: Alter-egos of one protagonist of this work include Stupendous Man and Spaceman Spiff.",
+        'Cul: The last ever line of this cartoon strip was "Lets go exploring!"',
+        "Cul: This Bill Watterson comic tells the tales of a boy and his tiger."
+    ],
+    artQuestions:[ 
+        "Art: This philosopher wrote the books 'Organon' and 'Metaphysics.' (First Name)",
+        "Art: This person wrote influential works on ethics, politics, and hylomorphism in his 'Nicomachean Ethics.' (First Name)",
+        "Art: A cloister where this philosopher and his students walked lends its name to the Peripatetic school he founded at the Lyceum. (First Name)",
+        "Art: This philosopher's was taught by Plato, who in turn was taught by Socrates. (First Name)"
+    ],
+    emoji: '🏋️'
 }
-
 
 ]

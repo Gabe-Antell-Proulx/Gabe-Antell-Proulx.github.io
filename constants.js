@@ -450,6 +450,36 @@ emoji: '🧂'
 
     ],
     emoji: '🕋'
+},
+  { 
+  answers: ['T', 'T', 'Y', 'L'], 
+  theme: "Cya", 
+  fullanswers: ['<b>T</b>hermodynamics', 'Alexis de <b>T</b>ocqueville', 'New York <b>Y</b>ankees', '<b>L</b>es Misérables'],
+  sciQuestions: [ 
+        "Sci: This field includes the study of concepts such as the Carnot cycle and the efficiency of heat engines.", 
+    "Sci: The second law of this scientific field states that entropy of an isolated system always increases over time.", 
+    "Sci: The First Law of this branch describes the change in a system’s internal energy in accordance with the Law of Conservation of Energy.",
+        "Sci: This branch of physics studies the relationships between heat, work, and energy."
+  ], 
+  hisQuestions: [ 
+    "His: This man wrote that state control of everyday affairs eventually results in what has been termed 'soft despotism.' (Surname)", 
+    "His: This author of 'The Ancien Regime' and 'The French Revolution' is more famous for a work written while examining prison systems with Gustave Beaufort. (Surname)", 
+    "His: This historian's most famous book was written after touring some American prisons. (Surname)",
+        "His: This French political thinker and historian is best known for his work 'Democracy in America.' (Surname)" 
+  ],  
+  culQuestions:[ 
+        "Cul: A pitcher on this team named Nestor Cortes famously dove on first base to get outfielder Steven Kwan out. (Team name)", 
+    "Cul: This Major League Baseball team is famously associated with pinstripe uniforms. (Team name)", 
+    "Cul: This team has won 27 World Series titles, the most in MLB history. (Team name)", 
+    "Cul: This team is known for its historic rivalry with the Boston Red Sox. (Team name)" 
+  ], 
+  artQuestions:[ 
+            "Art: This novel’s protagonist is repeatedly refused board because of his yellow passport.", 
+    "Art: This novel is subtitled 'Fantine' in its first section.", 
+    "Art: This book features the character Javert, a police inspector obsessed with capturing the protagonist.", 
+    "Art: This novel by Victor Hugo about Jean Valjean is set during revolutionary France." 
+  ], 
+  emoji: '💬'
 }
 
 ]

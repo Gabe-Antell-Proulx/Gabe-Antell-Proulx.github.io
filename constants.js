@@ -419,6 +419,37 @@ emoji: '🧂'
         "Art: This philosopher's was taught by Plato, who in turn was taught by Socrates. (First Name)"
     ],
     emoji: '🏋️'
+},
+  {
+    answers: ['H', 'A', 'J', 'J'],
+    theme: "A strong pillar",
+    fullanswers: ['<b>H</b>ubble Space Telescope', 'Madeleine <b>A</b>lbright', "<b>J</b>aws", '<b>J</b>ane Eyre'],
+    sciQuestions: [
+        "Sci: This instrument captured its namesake Deep Field, Ultra Deep Field, and Extreme Deep Field.",
+        "Sci: This project will eventually be replaced by the James Webb.",
+        "Sci: This device was named after an American astronomer who played a pivotal role in establishing the field of extragalactic astronomy.",
+        "Sci: This space telescope was repaired multiple times during shuttle missions to address issues with its mirror and instruments."
+    ],
+    hisQuestions: [
+              "His: This person successeded Warren Christopher and converted to Catholicism in order to obtain safety from the Nazis. (Surname)",  
+      "His: Born in Czechoslovakia, this diplomat earned her Ph.D. from Columbia University. (Surname)",
+        "His: This trailblazing figure wrote the memoir 'Madam Secretary.' (Surname)",
+         "His: This woman was the first female U.S. Secretary of State, serving from 1997 to 2001. (Surname)"
+    ],
+    culQuestions: [
+        "Cul: This 1975 thriller is set on the beaches of Amity Island.",
+        "Cul: John Williams created an ominous and minimalist theme for this movie to suggest a lurking presence.",
+        "Cul: Directed by Steven Spielberg, this movie was based on a novel by Peter Benchley.",
+        "Cul: The iconic line 'You're gonna need a bigger boat' is associated with this film."
+    ],
+    artQuestions: [
+              "Art: The protagonist of this novel famously declares, 'I am no bird; and no net ensnares me.'",  
+              "Art:  A Jamaican woman in this novel gave the title to the book 'The Madwoman in the Attic.'",
+        "Art: The main character of this novel falls in love with Edward Rochester, who harbors a dark secret.",
+            "Art: This 1847 novel by Charlotte Brontë tells the story of an orphaned girl who becomes a governess at Thornfield Hall.",
+
+    ],
+    emoji: '🕋'
 }
 
 ]

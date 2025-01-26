@@ -212,7 +212,7 @@ emoji: '⛳'
 },
   { 
 answers: ['S', 'A', 'L', 'T'], 
-theme: "It's the silly season", 
+theme: "It makes up a 'great' lake", 
 fullanswers: ['<b>S</b>ine', 'The <b>A</b>ndes', 'The <b>L</b>ion King', '<b>T</b>apestry'], 
 sciQuestions: [ 
 "Sci: This fucntion's namesake law is used to solve the remaining sides and angles in an ASA (angle-side-angle) triangle.", 
@@ -480,6 +480,37 @@ emoji: '🧂'
     "Art: This novel by Victor Hugo about Jean Valjean is set during revolutionary France." 
   ], 
   emoji: '💬'
+},
+{ 
+answers: ['H', 'U', 'L', 'U'], 
+theme: "A Prime Competitor", 
+fullanswers: ['<b>H</b>elium', '<b>U</b>rban II', '<b>L</b>iberty', '<b>U</b>lysses'], 
+sciQuestions: [ 
+"Sci: This element’s stellar mass fraction is denoted “capital Y.”", 
+"Sci: This is the heaviest non-negligible element present in population III stars because they formed from primordial gas.", 
+"Sci: This element was first detected in the Sun's spectrum before being found on Earth.", 
+"Sci: This gas, the second on the periodic table, is a noble gas." 
+], 
+hisQuestions: [ 
+"His: This man was originally a pupil of the man who founded the Carthusian Order, Saint Bruno of Cologne.", 
+"His: This historical figure's efforts to unite Western Europe against Muslim forces left a lasting legacy on European history.", 
+"His: At the Council of Clermont, this pontiff proclaimed “Deus Vult,” or “God wills it.”",
+  "His: This pope initiated the First Crusade with his famous speech in 1095.", 
+], 
+culQuestions:[ 
+"Cul: An insurance company with this name has an emu as a mascot.", 
+"Cul: A WNBA team with this name is based in New York.", 
+  "Cul: A famous bell with this name has a fairly large crack on its edge.", 
+"Cul: This concept represents personal freedoms and rights, often symbolized by a statue in the United States." 
+], 
+artQuestions:[ 
+"Art: While eating at Davy Byrne’s pub, the protagonist of this novel is reminded of Blazes Boylan.", 
+"Art: This book ends with a stream-of-consciousness soliloquy in which Molly says, "yes I said yes I will Yes."",
+  "Art: This book, often regarded as one of the greatest literary works of the 20th century, follows Leopold Bloom as its protagonist.", 
+  "Art: This modernist novel by James Joyce takes place over the course of a single day in Dublin.", 
+], 
+emoji: '📺' 
 }
+
 
 ]

@@ -483,7 +483,7 @@ emoji: '🧂'
 },
 { 
 answers: ['H', 'U', 'L', 'U'], 
-theme: "A Prime Competitor", 
+theme: "A Prime competitor", 
 fullanswers: ['<b>H</b>elium', '<b>U</b>rban II', '<b>L</b>iberty', '<b>U</b>lysses'], 
 sciQuestions: [ 
 "Sci: This element’s stellar mass fraction is denoted “capital Y.”", 
@@ -510,7 +510,38 @@ artQuestions:[
   "Art: This modernist novel by James Joyce takes place over the course of a single day in Dublin.", 
 ], 
 emoji: '📺' 
-}
+},
+  { 
+  answers: ['D', 'R', 'U', 'M'], 
+  theme: "Beat it!",
+  fullanswers: ['<b>D</b>NA', '<b>R</b>oosevelt', '<b>U</b>2', '<b>M</b>achiavelli'], 
+  sciQuestions: [ 
+    "Sci: This molecule's two strands are antiparallel, meaning that their 3′ and 5′ ends point in opposite directions.", 
+    "Sci: This molecule's structure was discovered by Watson and Crick, with the assistance of Rosalind Franklin's X-ray diffraction data.", 
+    "Sci: The nucleotides in this molecule are adenine, thymine, cytosine, and guanine.", 
+    "Sci: This molecule is often extracted from cells using a mixture of detergent, salt, and alcohol." 
+  ], 
+  hisQuestions: [ 
+    "His: The term 'bully pulpit' was coined by a man with this last name, who brokered the Treaty of Portsmouth to end the Russo-Japanese War. (Surname)", 
+    "His: A person with this name delivered the 'Day of Infamy' speech following the attack on Pearl Harbor. (Surname)", 
+    "His: A person with this name commanded the Rough Riders during the Spanish-American War. (Surname)", 
+    "His: A president with this name passed the Agricultural Adjustment Act as a part of his New Deal. (Surname)" 
+  ], 
+  culQuestions:[ 
+    "Cul: This band collaborated with Apple to release their album 'Songs of Innocence' directly to iTunes users in 2014.", 
+    "Cul: This band's name refers to a type of American spy plane used during the Cold War.",
+      "Cul: Bono is the lead singer of this band.", 
+     "Cul: This Irish rock band is known for songs like 'With or Without You' and 'I Still Haven't Found What I'm Looking For.'"
 
+  ], 
+  artQuestions:[ 
+    "Art: This Florentine writer's works are often associated with the phrase 'the ends justify the means.' (Surname)", 
+    "Art: One of this authors most famous books is called 'Discourses on Livy.' (Surname)",
+        "Art: This man's name has become synonymous with cunning and deceitful political behavior. (Surname)", 
+      "Art: This Renaissance political philosopher wrote 'The Prince,' a treatise on power and statecraft. (Surname)"
+
+  ], 
+  emoji: '🥁' 
+}
 
 ]

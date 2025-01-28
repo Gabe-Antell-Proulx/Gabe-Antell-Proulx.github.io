@@ -542,6 +542,37 @@ emoji: '📺'
 
   ], 
   emoji: '🥁' 
+},
+  { 
+  answers: ['W', 'X', 'Y', 'Z'], 
+  theme: "Final four", 
+  fullanswers: ['<b>W</b>hite Blood Cells', '<b>X</b>erxes I', 'Neil <b>Y</b>oung', '<b>Z</b>eno'],
+  sciQuestions: [ 
+    "Sci: These cells are also known as leukocytes.", 
+    "Sci: These cells can be categorized into types such as neutrophils, lymphocytes, and monocytes.", 
+    "Sci: Cancers afflicting these cells are called leukemia.", 
+    "Sci: These cells help fight off pathogens like bacteria and viruses in the human body." 
+  ], 
+  hisQuestions: [ 
+    "His: This Persian king led the second invasion of Greece during the Greco-Persian Wars.", 
+    "His: This Achaemenid ruler ordered the construction of a pontoon bridge to cross the Hellespont.", 
+    "His: This king faced defeat at the Battle of Salamis despite his superior naval forces.", 
+    "His: This son of Darius the Great ruled the Persian Empire from 486 to 465 BCE." 
+  ], 
+  culQuestions: [ 
+    "Cul: This 1960s Canadian singer-songwriter was inducted into both the Rock and Roll Hall of Fame and the Canadian Music Hall of Fame. (Surname)", 
+    "Cul: This artist collaborated with bands like Buffalo Springfield and Crosby, Stills, and Nash. (Surname)", 
+    "Cul: This singer has “been to Hollywood” and “Redwood” and is “growing old” while searching for the title object of one of his songs. (Surname)",
+        "Cul: This musician, known for hits like 'Heart of Gold' and 'Harvest Moon,' is a celebrated figure in folk and rock music. (Surname)"
+  ], 
+  artQuestions: [ 
+        "Art: An infinite regress results when discussing one of this philosopher’s ideas in a paper by Lewis Carroll.", 
+        "Art: This philosopher, a native of Elea, lived in the 5th century BCE and heavily influenced later thinkers like Aristotle.",
+    "Art: This philosopher is famous for his paradoxes, such as the Dichotomy Paradox and Achilles and the Tortoise.", 
+        "Art: This ancient Greek philosopher founded the Stoic school of philosophy."
+  ], 
+  emoji: '🔠' 
 }
+
 
 ]

@@ -505,7 +505,7 @@ culQuestions:[
 ], 
 artQuestions:[ 
 "Art: While eating at Davy Byrne’s pub, the protagonist of this novel is reminded of Blazes Boylan.", 
-"Art: This book ends with a stream-of-consciousness soliloquy in which Molly says, "yes I said yes I will Yes."",
+"Art: This book ends with a stream-of-consciousness soliloquy in which Molly says, 'yes I said yes I will Yes.'",
   "Art: This book, often regarded as one of the greatest literary works of the 20th century, follows Leopold Bloom as its protagonist.", 
   "Art: This modernist novel by James Joyce takes place over the course of a single day in Dublin.", 
 ], 

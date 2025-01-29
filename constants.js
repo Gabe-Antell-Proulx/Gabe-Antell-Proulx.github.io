@@ -572,7 +572,41 @@ emoji: '📺'
         "Art: This ancient Greek philosopher founded the Stoic school of philosophy."
   ], 
   emoji: '🔠' 
+},
+{ 
+  answers: ['C', 'H', 'O', 'P'], 
+  theme: "Chop ____", 
+  fullanswers: [
+    '<b>C</b>', 
+    '<b>H</b>enry VIII', 
+    "Conan <b>O</b>'Brien", 
+    '<b>P</b>eter and the Wolf'
+  ],
+  sciQuestions: [ 
+    "Sci: This language was originally developed at Bell Labs by Dennis Ritchie.",  
+    "Sci: This language features pointers, memory management, and a standard library that includes functions like printf and scanf.", 
+    "Sci: In this programming language, 'int main()' is a common way to begin a program, and statements end with semicolons.",
+        "Sci: This language was the basis for other similar languages ending in '++'or '#.'"
+  ], 
+   hisQuestions: [ 
+    "His: This man executed his chancellor, Thomas More, after More refused to accept this ruler’s split from the Catholic Church.", 
+    "His: The Pilgrimage of Grace emerged against this monarch in response to the dissolution of monasteries spearheaded by this monarch’s minister Thomas Cromwell. ", 
+    "His: The third wife of this king, Jane Seymour, gave birth to his only male heir, Edward VI.", 
+    "His: This king, famous for his role in the English Reformation, was succeeded by his children Edward VI, Mary I, and Elizabeth I."
+  ], 
+  culQuestions: [ 
+        "Cul: This man walked around the streets of Florence shouting "rigatoni," "fusili," and "limoncello" to pedestrians. (Surname)",
+    "Cul: This comedian, who played an exaggerated version of himself in 'The Lego Batman Movie,' began his career as a writer for 'The Simpsons' and 'Saturday Night Live.' (Surname)", 
+    "Cul: This man’s associate producer often remarks, 'I have various duties.' (Surname)", 
+        "Cul: This television host, known for his signature red hair, gained fame as the host of 'Late Night' before moving to 'The Tonight Show' and his namesake show on TBS. (Surname)"
+  ], 
+  artQuestions: [ 
+    "Art: Maurice Sendak and the Shirim Klezmer Orchestra produced a Yiddish interpretation of this composition in 2004, the same year Sophia Loren, Mikhail Gorbachev, and Bill Clinton won a Grammy for recording it.", 
+    "Art: The protagonist of this work catches the antagonist with a lasso, leading to a triumphant procession at the end.",
+        "Art: This 1936 work by Sergei Prokofiev was originally intended as a way to introduce children to the instruments of the orchestra.", 
+        "Art: This musical composition, featuring a narrator and orchestra, assigns specific instruments to represent characters such as a duck (oboe) and the grandfather (bassoon)."
+  ], 
+  emoji: '🔪' 
 }
-
 
 ]

@@ -217,8 +217,8 @@ function openStats() {
 }
 
 
-document.getElementById("instruction").onclick = openInstructions();
-document.getElementById("X_instructions").onclick = Xout('instructionsPage','X_instructions');
+document.getElementById("instruction").onclick = "openInstructions()";
+document.getElementById("X_instructions").onclick = "Xout('instructionsPage','X_instructions')";
 
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {

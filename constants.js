@@ -595,7 +595,7 @@ emoji: '📺'
     "His: This king, famous for his role in the English Reformation, was succeeded by his children Edward VI, Mary I, and Elizabeth I."
   ], 
   culQuestions: [ 
-        "Cul: This man walked around the streets of Florence shouting "rigatoni," "fusili," and "limoncello" to pedestrians. (Surname)",
+        'Cul: This man walked around the streets of Florence shouting "rigatoni," "fusili," and "limoncello" to pedestrians. (Surname)',
     "Cul: This comedian, who played an exaggerated version of himself in 'The Lego Batman Movie,' began his career as a writer for 'The Simpsons' and 'Saturday Night Live.' (Surname)", 
     "Cul: This man’s associate producer often remarks, 'I have various duties.' (Surname)", 
         "Cul: This television host, known for his signature red hair, gained fame as the host of 'Late Night' before moving to 'The Tonight Show' and his namesake show on TBS. (Surname)"

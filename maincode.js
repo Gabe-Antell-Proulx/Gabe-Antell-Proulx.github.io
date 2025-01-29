@@ -218,6 +218,7 @@ function openStats() {
 
 
 document.getElementById("instruction").onclick = "openInstructions()";
+console.log(document.getElementById("instruction").onclick);
 document.getElementById("X_instructions").onclick = "Xout('instructionsPage','X_instructions')";
 
 document.body.addEventListener("keydown", function (eventb) {

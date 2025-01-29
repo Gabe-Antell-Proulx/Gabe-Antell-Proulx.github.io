@@ -85,7 +85,6 @@ function loadState() {
    const gameStateString = localStorage.getItem('update');
    const gameState = JSON.parse(gameStateString);
  }
-console.log(gameState);
  if (gameState[51] == number) {
    for (let i = 0; i < logger.length; i++) {
      if (logger[i] != '') {
@@ -188,6 +187,7 @@ function Xout(page, X){
 }
 
 function openInstructions() {
+ console.log("open instructions");
  if (pageOpen == false) {
    pageOpen = true;
    document.getElementById('instructionsPage').style.visibility = 'visible';

@@ -195,6 +195,7 @@ function openInstructions() {
  }
  return false;
 }
+window.openInstructions = openInstructions;
 
 function openInformation() {
  if (pageOpen == false) {

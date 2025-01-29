@@ -143,9 +143,6 @@ if (streakList == "" || streakList == null) {
 var streak = streakList.length;
 localStorage.setItem('streak', JSON.stringify(streakList));
 
-document.getElementById("instruction").onclick = openInstructions();
-document.getElementById("X_instructions").onclick = Xout('instructionsPage','X_instructions');
-
 function popup() {
  if (document.getElementById('instructionsPage').style.visibility != 'visible' && document.getElementById('statsPage').style.visibility != 'visible' && document.getElementById('informationPage').style.visibility != 'visible' && document.getElementById('questionPage').style.visibility != 'visible') {
    pageOpen = true;
@@ -220,6 +217,8 @@ function openStats() {
 }
 
 
+document.getElementById("instruction").onclick = openInstructions();
+document.getElementById("X_instructions").onclick = Xout('instructionsPage','X_instructions');
 
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {

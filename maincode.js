@@ -400,6 +400,7 @@ function win() {
  document.getElementById('X_end').style.visibility = "visible";
  document.getElementById('copier').style.visibility = 'visible';
  document.getElementById('resultsbutton').style.visibility = 'visible';
+  document.getElementById('submitButton').style.visibility = 'hidden';
  saveState();
 }
 function copy() {

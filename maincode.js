@@ -224,7 +224,93 @@ function openStats() {
  }
 }
 window.openStats = openStats;
+function submit(){
+    let animationIndex = 0;
+    //xyz
+    function endAnimationFunction(){
+      for (let i = 1; i <= (4 - (enter_keys_clicked / 5)); i++) {
+        setTimeout(() => {
+          for (let x=0;x<4;x++){
+            if (won[x]==false && i == 1){
+              if (keys_clicked < 18) {
+                document.getElementById(logger[enter_keys_clicked + x + 5]).style.backgroundColor = color_log[x];
+              }
+              question_levels[x]+=1;
+              document.getElementById(logger_questions[x]).innerHTML = logger_prompts[x][question_levels[x]];
+              document.getElementById(logger_questionPages[x]).innerHTML += "<li>" + logger_prompts[x][question_levels[x]].substr(4, logger_prompts[x][question_levels[x]].length) + "</li>"; 
+            }
+            else if (won[x] && i==1){
+              document.getElementById(logger_questions[x]).innerHTML = "You got it!";
+            }
+            else if (won[x] && i>1){
+              document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.backgroundColor = '#33A33C';
+              document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.color = '#fff';
+              document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).innerHTML = document.getElementById(logger[enter_keys_clicked + x]).innerHTML;
+            }
+            document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
+          }
+        }, i * 200);
+      }
+      setTimeout(() => {
+      enter_keys_clicked += 5;
+      keys_clicked += 1;
+      saveState();
+      if (won[0] && won[1] && won[2] && won[3]) {
+        win();
+      }
+      else if (enter_keys_clicked == 20) {
+        win();
+      }
+      animationHappening = false;
+      document.body.removeEventListener("keydown", eventc);
+      },((4 - (enter_keys_clicked / 5)) * 200))
+    }
+    function checkIfRight(){
+      if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
+        document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
+        document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
+        won[animationIndex] = true;
+      }
+      //check if answer is correct
+      if (won[animationIndex] == false) {
+        document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#636363';
+        document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';                 
+      }
 
+    if (animationIndex <  3) {
+      animationIndex++
+      animateDiv(logger[enter_keys_clicked + animationIndex]);  // Animate the next div
+    } 
+    else {
+      // All divs have been processed, call the end animation function
+      endAnimationFunction();
+    }
+    }
+    
+    function animateDiv(divId){
+      if (won[logger.indexOf(divId)%5]){
+        animationIndex++
+        if (animationIndex <  4) {
+          animateDiv(logger[enter_keys_clicked+animationIndex]);
+        }
+        else{
+          endAnimationFunction();
+        }
+      }
+      else{
+        if (document.getElementById(divId).innerHTML == currentAnswers[animationIndex]){
+          document.getElementById(divId).classList.add("animateCorrectLetter");  // Add animation class
+        }
+        else{
+          document.getElementById(divId).classList.add("animateIncorrectLetter");  // Add animation class
+        }
+        setTimeout(checkIfRight, 250); 
+      }
+    }
+    
+    animationHappening = true;
+    animateDiv(logger[enter_keys_clicked]);
+}
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {
    var letters_right = 0;
@@ -266,94 +352,14 @@ document.body.addEventListener("keydown", function (eventb) {
    if ((f % 5) % (5 - letters_right) == 0) {
      document.body.addEventListener("keydown", function (eventc) {
        if (eventc.keyCode == 13 && keys_clicked == (enter_keys_clicked + 4) && animationHappening == false) {
-         let animationIndex = 0;
-         //xyz
-         function endAnimationFunction(){
-           for (let i = 1; i <= (4 - (enter_keys_clicked / 5)); i++) {
-             setTimeout(() => {
-               for (let x=0;x<4;x++){
-                 if (won[x]==false && i == 1){
-                   if (keys_clicked < 18) {
-                     document.getElementById(logger[enter_keys_clicked + x + 5]).style.backgroundColor = color_log[x];
-                   }
-                   question_levels[x]+=1;
-                   document.getElementById(logger_questions[x]).innerHTML = logger_prompts[x][question_levels[x]];
-                   document.getElementById(logger_questionPages[x]).innerHTML += "<li>" + logger_prompts[x][question_levels[x]].substr(4, logger_prompts[x][question_levels[x]].length) + "</li>"; 
-                 }
-                 else if (won[x] && i==1){
-                   document.getElementById(logger_questions[x]).innerHTML = "You got it!";
-                 }
-                 else if (won[x] && i>1){
-                   document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.backgroundColor = '#33A33C';
-                   document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.color = '#fff';
-                   document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).innerHTML = document.getElementById(logger[enter_keys_clicked + x]).innerHTML;
-                 }
-                 document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
-               }
-             }, i * 200);
-           }
-           setTimeout(() => {
-           enter_keys_clicked += 5;
-           keys_clicked += 1;
-           saveState();
-           if (won[0] && won[1] && won[2] && won[3]) {
-             win();
-           }
-           else if (enter_keys_clicked == 20) {
-             win();
-           }
-           animationHappening = false;
-           document.body.removeEventListener("keydown", eventc);
-           },((4 - (enter_keys_clicked / 5)) * 200))
-         }
-         function checkIfRight(){
-           if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
-             document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
-             document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
-             won[animationIndex] = true;
-           }
-           //check if answer is correct
-           if (won[animationIndex] == false) {
-             document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#636363';
-             document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';                 
-           }
-
-         if (animationIndex <  3) {
-           animationIndex++
-           animateDiv(logger[enter_keys_clicked + animationIndex]);  // Animate the next div
-         } 
-         else {
-           // All divs have been processed, call the end animation function
-           endAnimationFunction();
-         }
-         }
-         
-         function animateDiv(divId){
-           if (won[logger.indexOf(divId)%5]){
-             animationIndex++
-             if (animationIndex <  4) {
-               animateDiv(logger[enter_keys_clicked+animationIndex]);
-             }
-             else{
-               endAnimationFunction();
-             }
-           }
-           else{
-             if (document.getElementById(divId).innerHTML == currentAnswers[animationIndex]){
-               document.getElementById(divId).classList.add("animateCorrectLetter");  // Add animation class
-             }
-             else{
-               document.getElementById(divId).classList.add("animateIncorrectLetter");  // Add animation class
-             }
-             setTimeout(checkIfRight, 250); 
-           }
-         }
-         
-         //problem: the code below is called three times on the second answer
-         animationHappening = true;
-         animateDiv(logger[enter_keys_clicked]);
+        submit();
        }
      });
+    document.getElementById("submitButton").addEventListener("click", function (eventc){
+     if (animationHappening == false) {
+      submit()
+     }
+    });
    }
  }
 });

@@ -1,7 +1,7 @@
 import { puzzles } from './constants.js';
 const today = new Date();
 //change the start date, abc
-const startDate = new Date('2024-12-02T18:30:00-07:00');
+const startDate = new Date('2024-12-22T18:30:00-07:00');
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
 var avgScore = 0;
@@ -193,7 +193,6 @@ function Xout(page, X){
 window.Xout = Xout;
 
 function openInstructions() {
- console.log("open instructions");
  if (pageOpen == false) {
    pageOpen = true;
    document.getElementById('instructionsPage').style.visibility = 'visible';

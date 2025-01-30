@@ -150,7 +150,8 @@ function popup() {
    document.getElementById('X_end').style.visibility = 'visible';
  }
 }
-//work on this (question segments popping up)
+window.popup = popup;
+
 function popupQuestions() {
  if (pageOpen == false) {
    pageOpen = true;
@@ -162,6 +163,8 @@ function popupQuestions() {
    });
  }
 }
+window.popupQuestions = popupQuestions;
+
 function XoutEnd() {
  pageOpen = false;
  document.getElementById('endpage').style.visibility = "hidden";
@@ -169,6 +172,7 @@ function XoutEnd() {
  document.getElementById('copier').style.visibility = "hidden";
  document.getElementById('X_end').style.visibility = "hidden";
 }
+window.XoutEnd = XoutEnd;
 
 function XoutQuestionsPage() {
  pageOpen = false;
@@ -179,12 +183,14 @@ function XoutQuestionsPage() {
    subDiv.style.visibility = 'hidden';
  });
 }
+window.XoutQuestionsPage = XoutQuestionsPage;
 
 function Xout(page, X){
  pageOpen = false;
  document.getElementById(page).style.visibility = 'hidden';
  document.getElementById(X).style.visibility = 'hidden'; 
 }
+window.Xout = Xout;
 
 function openInstructions() {
  console.log("open instructions");
@@ -195,6 +201,7 @@ function openInstructions() {
  }
  return false;
 }
+window.openInstructions = openInstructions;
 
 function openInformation() {
  if (pageOpen == false) {
@@ -216,6 +223,7 @@ function openStats() {
    document.getElementById('X_stats').style.visibility = 'visible';
  }
 }
+window.openStats = openStats;
 
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {

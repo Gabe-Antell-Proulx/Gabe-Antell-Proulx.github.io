@@ -1,7 +1,7 @@
 import { puzzles } from './constants.js';
 const today = new Date();
 //change the start date, abc
-const startDate = new Date('2024-12-22T18:30:00-07:00');
+const startDate = new Date('2024-12-24T18:30:00-07:00');
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
 var avgScore = 0;
@@ -224,8 +224,8 @@ function openStats() {
 }
 window.openStats = openStats;
 function submit(){
+  if (animationHappening == false && keys_clicked == (enter_keys_clicked + 4)) {
     let animationIndex = 0;
-    //xyz
     function endAnimationFunction(){
       for (let i = 1; i <= (4 - (enter_keys_clicked / 5)); i++) {
         setTimeout(() => {
@@ -261,7 +261,7 @@ function submit(){
         win();
       }
       animationHappening = false;
-      document.body.removeEventListener("keydown", eventc);
+      //document.body.removeEventListener("keydown", eventc);
       },((4 - (enter_keys_clicked / 5)) * 200))
     }
     function checkIfRight(){
@@ -309,6 +309,7 @@ function submit(){
     
     animationHappening = true;
     animateDiv(logger[enter_keys_clicked]);
+  }
 }
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {
@@ -350,15 +351,11 @@ document.body.addEventListener("keydown", function (eventb) {
    }
    if ((f % 5) % (5 - letters_right) == 0) {
      document.body.addEventListener("keydown", function (eventc) {
-       if (eventc.keyCode == 13 && keys_clicked == (enter_keys_clicked + 4) && animationHappening == false) {
+       if (eventc.keyCode == 13) {
         submit();
        }
      });
-    document.getElementById("submitButton").addEventListener("click", function (eventc){
-     if (animationHappening == false) {
-      submit()
-     }
-    });
+    document.getElementById("submitButton").addEventListener("click", submit);
    }
  }
 });

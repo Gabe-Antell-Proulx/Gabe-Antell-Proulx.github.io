@@ -343,6 +343,7 @@ document.body.addEventListener("keydown", function (eventb) {
      }
      document.getElementById(logger[keys_clicked + backspace - 1]).innerHTML = '';
      document.getElementById(logger[keys_clicked + backspace - 1]).style.border = '1.5px solid black';
+      document.getElementById("submitButton").style.border = '1.5px solid black';
      keys_clicked += backspace - 1;
    }
 
@@ -354,6 +355,7 @@ document.body.addEventListener("keydown", function (eventb) {
      }
    }
    if ((f % 5) % (5 - letters_right) == 0) {
+    document.getElementById("submitButton").style.border = '2px solid black';
      document.body.addEventListener("keydown", function (eventc) {
        if (eventc.keyCode == 13) {
         submit();

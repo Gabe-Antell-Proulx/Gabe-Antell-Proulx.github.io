@@ -182,7 +182,7 @@ emoji: '⛳'
 },
 {
   answers: ['Y', 'O', 'Y', 'O'],
-  theme: "Go around the world",
+  theme: "Travel around the world",
   fullanswers: ['<b>Y</b>east', '<b>O</b>regon Trail', '<b>Y</b>outube', '<b>O</b>dyssey'],
   sciQuestions: [
     "Sci: Louis Pasteur developed his namesake effect by supplying oxygen to this organism, which induced a switch to aerobic respiration from fermentation.",

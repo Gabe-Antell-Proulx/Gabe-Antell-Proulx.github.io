@@ -245,6 +245,7 @@ function submit(){
               document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.backgroundColor = '#33A33C';
               document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).style.color = '#fff';
               document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).innerHTML = document.getElementById(logger[enter_keys_clicked + x]).innerHTML;
+             document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).classList.add("animateCorrectLetter");
             }
             document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
           }

@@ -47,7 +47,6 @@ top: 75%;
 background-color: #ddaaff;
 }
 
-
 /*index2 styles*/
 .blank {
 display: flex;
@@ -97,6 +96,14 @@ align-items: center;
 position: absolute;
 left: 76.3%;
 top: 38px;
+}
+
+.bottomButtons {
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 50%;
+top: 530px;
 }
 
 .questions {
@@ -292,8 +299,6 @@ justify-content: center;
 color: #000;
 align-items: center;
 position: absolute;
-left: 45%;
-top: 530px;
 font-size: 17px;
 height: 15px;
 width: 150px;

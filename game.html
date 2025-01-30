@@ -59,10 +59,10 @@
       <div class="blank" id='cul4' style="left:240px; top:160px;"></div>
       <div class="blank" id='art4' style="left:240px; top:240px;"></div>      
     </div>
-
-    <button id='resultsbutton' class='resultsbutton' style='top: 580px;' onclick="popup()">Results</button>
-    <button id='questionsbutton' class='resultsbutton' style='visibility:visible; font-size:17px;' onclick="popupQuestions()">All Questions</button>
-
+    <div class='bottomButtons'>
+    <button id='resultsbutton' class='resultsbutton' style='left:-50px;' onclick="popup()">Results</button>
+    <button id='questionsbutton' class='resultsbutton' style='visibility:visible; font-size:17px; left:50px;' onclick="popupQuestions()">All Questions</button>
+      </div>
     <div id='endpage' class='end'>
       <b><font size=+3>Results</font><br></b>
       <button id='copier' class='copybutton' onclick="copy()">Copy Results</button>
@@ -117,18 +117,5 @@
 
     <div id='copyscreen' class='copyscreen' style='visibility: hidden'>Copied results to clipboard!</div>
 
-    </div>
-  <script>
-    function openStats() {
-     if (pageOpen == false) {
-       pageOpen = true;
-       var avgScore = Math.round(calculateAverage(pastScore) * 10) / 10;
-       var streak = streakList.length;
-       document.getElementById('streakNumber').innerHTML = streak;
-       document.getElementById('averageScoreNumber').innerHTML = avgScore;
-       document.getElementById('statsPage').style.visibility = 'visible';
-       document.getElementById('X_stats').style.visibility = 'visible';
-     }
-    }
-  </script>
+  </div>
 </body>

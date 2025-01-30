@@ -195,7 +195,6 @@ function openInstructions() {
  }
  return false;
 }
-window.openInstructions = openInstructions;
 
 function openInformation() {
  if (pageOpen == false) {
@@ -204,6 +203,7 @@ function openInformation() {
    document.getElementById('X_information').style.visibility = 'visible';
  }
 }
+window.openInformation = openInformation;
 
 function openStats() {
  if (pageOpen == false) {
@@ -216,12 +216,6 @@ function openStats() {
    document.getElementById('X_stats').style.visibility = 'visible';
  }
 }
-
-
-document.getElementById("instruction").onclick = "openInstructions()";
-console.log(document.getElementById("instruction").onclick);
-console.log(document.getElementById("instruction").innerHTML);
-document.getElementById("X_instructions").onclick = "Xout('instructionsPage','X_instructions')";
 
 document.body.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {

@@ -220,6 +220,7 @@ font-family: "Trebuchet MS";
 
 .X {
 border: 0px solid #000;
+font-size:25px;
 display: flex;
 color: #000000;
 background: none;
@@ -233,7 +234,6 @@ visibility: hidden;
 }
 
 .X_end {
-font-size: 35px;
 height: 30px;
 width: 30px;
 top: 15px;
@@ -241,7 +241,6 @@ left: 375px;
 }
 
 .X_instructions {
-font-size: 35px;
 height: 30px;
 width: 30px;
 top: 20px;
@@ -249,7 +248,6 @@ left: 445px;
 }
 
 .X_questions {
-font-size: 35px;
 height: 30px;
 width: 30px;
 top: 17px;
@@ -258,7 +256,6 @@ visibility: hidden;
 }
 
 .X_information {
-font-size: 35px;
 height: 15px;
 width: 15px;
 top: 20px;
@@ -266,7 +263,6 @@ left: 485px;
 }
 
 .X_stats {
-font-size: 30px;
 height: 15px;
 width: 15px;
 top: 20px;

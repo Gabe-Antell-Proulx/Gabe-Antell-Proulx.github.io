@@ -642,6 +642,36 @@ emoji: '📺'
     "Art: This Auguste Rodin statue depicts a man sitting with his chin resting on his hand in deep thought."
   ], 
   emoji: '😏' 
+},
+{ 
+  answers: ['B', 'I', 'L', 'L'], 
+  theme: "A bird's-eye view", 
+  fullanswers: ['<b>B</b>ridges', '<b>I</b>roquois Confederacy', '<b>L</b>aw and Order', '<b>L</b>ondon'], 
+  sciQuestions: [ 
+        "Sci: Arup added 89 dampers to one of these structures after synchronous lateral excitation caused its 2000 opening to be pushed back.", 
+    "Sci: Aeroelastic flutter, not resonance as commonly believed, was the cause of the 1940 rupture of one of these structures in Tacoma.", 
+    "Sci: aAmath problem asks a walker to traverse seven of these structures in Konigsberg.", 
+    "Sci: These structures come in cantilever, arch, and suspension types." 
+  ], 
+  hisQuestions: [ 
+    "His: This political alliance, also called the Haudenosaunee.", 
+    "His: A “Great Peacemaker” and Hiawatha were semi-mythical founders of this group centered in the northeastern part of North America.", 
+    "His: This confederacy was known for its Great Law of Peace, which established governance and decision-making procedures.", 
+    "His: This Native American group, whose members included the Mohawk and Seneca, played key roles in the fur trade and European conflicts." 
+  ], 
+  culQuestions:[ 
+    'Cul: The only dialogue in one episode of this show is: “‘No.’ ‘Yes.’ ‘No.’ ‘No?’ ‘No.’ ‘Oh.’”', 
+    'Cul: This television series created by Dick Wolf premiered in 1990 and has inspired multiple spin-offs.', 
+    'Cul: One memorable episode of this show saw Arthur Branch fire the character of Serena Southerlyn, who asked “Is this because I’m a lesbian?”',
+        'Cul: A famous “DUN DUN” sound effect is associated with this police procedural series.', 
+  ], 
+  artQuestions:[ 
+    "Art: Christopher Wren designed one of this city's most famous architectural landmarks, St. Paul’s Cathedral.", 
+    "Art: This city's skyline includes modern buildings such as The Shard and the Gherkin.", 
+    "Art: This European city is home to the Tate Modern.", 
+    "Art: This city features iconic structures like Big Ben and the Tower Bridge." 
+  ], 
+  emoji: '💵'
 }
 
 

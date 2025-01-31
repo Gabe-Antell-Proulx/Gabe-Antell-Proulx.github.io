@@ -633,13 +633,13 @@ emoji: '📺'
     "Cul: One of this artist’s songs features a scale common in Middle-Eastern music and mentions “tearing down windows and doors.” (First Name)", 
     "Cul: In addition to “Eyes Like Yours,” this singer sang a duet with Pitbull known as “Rabiosa.” (First Name)", 
     "Cul: This singer, born in Barranquilla, is widely recognized for her unique vocal style and belly dancing moves. (First Name)",
-        "Cul: This Colombian singer, known for hits like 'Hips Don’t Lie' and 'Whenever, Wherever,' performed at the 2020 Super Bowl halftime show. (First Name)", 
+        "Cul: This Colombian singer, known for hits like 'Hips Don’t Lie' and 'Whenever, Wherever,' performed at the 2020 Super Bowl halftime show. (First Name)" 
   ], 
   artQuestions:[ 
     "Art: This work was originally named 'The Poet.'",
-      "Art: The figure from this work appears directly below The Three Shades in a large collection that also features Ugolino and His Children and The Kiss." 
+      "Art: The figure from this work appears directly below The Three Shades in a large collection that also features Ugolino and His Children and The Kiss.",
     "Art: This sculpture, which depicts Dante Alighieri, was initially conceived as part of a larger work, 'The Gates of Hell.'", 
-    "Art: This Auguste Rodin statue depicts a man sitting with his chin resting on his hand in deep thought.", 
+    "Art: This Auguste Rodin statue depicts a man sitting with his chin resting on his hand in deep thought."
   ], 
   emoji: '😏' 
 }

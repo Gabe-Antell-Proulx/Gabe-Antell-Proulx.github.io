@@ -671,8 +671,37 @@ emoji: '📺'
     "Art: This European city is home to the Tate Modern.", 
     "Art: This city features iconic structures like Big Ben and the Tower Bridge." 
   ], 
-  emoji: '💵'
+  emoji: '🦆'
+},
+  {
+ answers: ['M', 'A', 'S', 'K'],
+ theme: "20's fashion", 
+ fullanswers: ['<b>M</b>antle', '<b>A</b>rgentina', "<b>S</b>mith, Will", '<b>K</b>eats'],
+ sciQuestions: [ 
+"Sci: The topmost portion of this region is known as the Mohorovičić discontinuity.", 
+"Sci: This area makes up roughly 84% of Earth's volume and is composed primarily of silicate minerals.", 
+"Sci: Convection currents in this layer drive plate tectonics.", 
+"Sci: The uppermost part of this layer, along with the crust, forms the lithosphere." 
+],
+ hisQuestions: [ 
+"His: This country experienced the 'Dirty War' during its military dictatorship from 1976 to 1983.", 
+"His: Juan and Eva Perón were key political figures in this nation.", 
+"His: The Falklands War was fought between this country and the United Kingdom in 1982.", 
+"His: This country, home to Buenos Aires, declared independence from Spain on July 9, 1816." 
+], 
+culQuestions:[ 
+"Cul: This actor voiced Oscar in 'Shark Tale.'", 
+"Cul: This man's music career includes the song 'Gettin’ Jiggy wit It'.", 
+"Cul: He won an Academy Award for portraying Richard Williams, the father of Venus and Serena Williams.", 
+"Cul: This actor gained fame starring as a fictionalized version of himself in *The Fresh Prince of Bel-Air*." 
+], 
+artQuestions:[
+"Art: This poet wrote 'Hyperion,' an unfinished epic influenced by Greek mythology.", 
+  "Art: He was part of the second generation of English Romantic poets, alongside Byron and Shelley.", 
+"Art: His poem 'Ode on a Grecian Urn' contains the famous line 'Beauty is truth, truth beauty.'", 
+"Art: This poet, who died of tuberculosis at 25, wrote 'Ode to a Nightingale' and 'To Autumn.'" 
+],
+ emoji: '😷' 
 }
-
 
 ]

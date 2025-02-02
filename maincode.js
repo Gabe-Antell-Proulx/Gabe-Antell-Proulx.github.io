@@ -431,3 +431,4 @@ function copy() {
    document.getElementById('copyscreen').style.visibility = 'hidden';
  }, 1500);
 }
+window.copy = copy;

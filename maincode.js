@@ -21,7 +21,6 @@ let logger_questions = ['sciq','hisq','culq','artq'];
 let logger_questionPages = ['questionPageSci', 'questionPageHis', 'questionPageCul', 'questionPageArt'];
 let question_levels = [0, 0, 0, 0];
 
-let alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 let color_log = ['#aaffaa', '#bbffff', '#aaccff', '#ddaaff']
 let gameWon = false;
 
@@ -148,6 +147,14 @@ function popup() {
    document.getElementById('endpage').style.visibility = 'visible';
    document.getElementById('copier').style.visibility = 'visible';
    document.getElementById('X_end').style.visibility = 'visible';
+   document.addEventListener("click", function(event) {
+    const targetDiv = document.getElementById("endpage");
+     const targetCopy = document.getElementById("copier");
+    
+    if (!targetDiv.contains(event.target) && !targetCopy.contains(event.target)) {
+        XoutEnd();
+    }
+});
  }
 }
 window.popup = popup;

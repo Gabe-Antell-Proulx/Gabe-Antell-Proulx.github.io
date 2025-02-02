@@ -24,8 +24,8 @@
     <div class='hidden' id='trash'></div>
     
     <div class='buttons' id='buttons'>
-      <button onclick='openInstructions()' id='instruction' class="dot" style="left:100px; top:0px; font-weight:bold;">?</button>
-      <button onclick='openInformation()' id='information' class="dot" style="left:50px; top:0px; font-weight:bold;">i</button>
+      <button onclick='openInstructions()' id='instruction' class="dot" style="left:50px; top:0px; font-weight:bold;">?</button>
+      <button onclick='openInformation()' id='information' class="dot" style="left:100px; top:0px; font-weight:bold;">i</button>
       <button onclick='openStats()' id='inspection' class="dot" style="left:0px; top:0px; font-weight:bold; font-size: 35px;"><img src='profits.png' style="height: 17px; width: 17px;"></img></button>
     </div>
     <h1 style="font-family: 'Trebuchet MS';" id='themeText'></h1>
@@ -74,7 +74,7 @@
 
     <div id='informationPage' class='informationPopup'>
       <b>
-        <font size=+3>Information</font>
+        <font size=+3>About</font>
       </b><br><br>A mnemonic can be any kind of memory device, but a popular kind of mnemonic for learning a string of information is one where you create an acronym with the first letter of each piece of information.<br>
       <br>In this game, you will need to figure out a 'mnemonic' made up of random pieces of information taken from the following four categories of knowledge.<br>
       <ul>
@@ -83,7 +83,7 @@
         <li>Cul: Culture (i.e., common knowledge, TV, sports, religion)</li>
         <li>Art: Arts and Literature (i.e., composers, painters, authors, philosophy)</li>
       </ul>
-      <br>To support this website go to <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target=”_blank”>my patreon</a>
+      <br>To support this website you can <a href='https://buymeacoffee.com/gabrielap' target=”_blank”>buy me a coffee</a>
       <br><br><br>Developed and created by Gabriel Antell-Proulx
       <button id='X_information' class='X X_information' onclick="Xout('informationPage', 'X_information')">✕</button>
     </div>
@@ -99,17 +99,9 @@
     </div>
 
     <div id='instructionsPage' class='instructionsPopUp'>
-        <div style="text-align: center;"><b><font size=+3>Information</font>
-      </b><br><br>A mnemonic can be any kind of memory device, but a popular kind of mnemonic for learning a string of information is one where you create an acronym with the first letter of each piece of information.<br>
-      <br>In this game, you will need to figure out a 'mnemonic' made up of random pieces of information taken from the following four categories of knowledge.<br>
-      <ul>
-        <li>Sci: Science (i.e., chemistry, biology, math, social science)</li>
-        <li>His: History (i.e., geography, historical figures, major events)</li>
-        <li>Cul: Culture (i.e., common knowledge, TV, sports, religion)</li>
-        <li>Art: Arts and Literature (i.e., composers, painters, authors, philosophy)</li>
-      </ul><br>
-      <b><font size=+2>How to Play</font><br></b>
-      <font size=+0.5>You have four tries to guess the Mnemonicle<ul></font>
+        <div style="text-align: center;">
+      <b><font size=+3>How to Play</font><br></b>
+      <font size=+0.1>You have four tries to guess the Mnemonicle<ul></font>
     </div>
       <li>Answer the trivia questions by putting the first letter of each answer (excluding words like "the" or "a") into the row associated with each category</li>
       <li>Enter your guesses <b>vertically</b> into the colored squares in the grid (you do not need to guess real words)</li>
@@ -118,8 +110,6 @@
       <li>If you get a letter incorrect, the square will turn gray, and the associated trivia question will get easier (you can see all previous trivia questions by pressing the button at the bottom of the screen)</li>
       <li>A theme will hint at what the finished Mnemonicle will be </li>
       </ul>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div style="text-align: center;">To support this website go to <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target=”_blank”>my patreon</a>
-      <br><br><br>Developed and created by Gabriel Antell-Proulx</div>
     <img src='instructionsExamples.png' style='height:205px; width:450px; position:absolute; left:15px; top: 575px;'>
       <button id='X_instructions' onclick='Xout("instructionsPage","X_instructions")' class='X X_instructions' style='visibility: hidden;'>✕</button>
     </div>

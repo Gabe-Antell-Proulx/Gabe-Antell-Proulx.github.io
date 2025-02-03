@@ -269,7 +269,7 @@ function submit(){
       if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
-       document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>You got it!";
+       document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>✅";
         won[animationIndex] = true;
       }
       //check if answer is correct

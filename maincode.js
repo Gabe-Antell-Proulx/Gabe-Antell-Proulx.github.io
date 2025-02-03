@@ -142,19 +142,11 @@ var streak = streakList.length;
 localStorage.setItem('streak', JSON.stringify(streakList));
 
 function popup() {
- if (document.getElementById('instructionsPage').style.visibility != 'visible' && document.getElementById('statsPage').style.visibility != 'visible' && document.getElementById('informationPage').style.visibility != 'visible' && document.getElementById('questionPage').style.visibility != 'visible') {
+ if (pageOpen == false) {
    pageOpen = true;
    document.getElementById('endpage').style.visibility = 'visible';
    document.getElementById('copier').style.visibility = 'visible';
    document.getElementById('X_end').style.visibility = 'visible';
-   document.addEventListener("click", function(event) {
-    const targetDiv = document.getElementById("endpage");
-     const targetCopy = document.getElementById("copier");
-    
-    if (!targetDiv.contains(event.target) && !targetCopy.contains(event.target)) {
-        XoutEnd();
-    }
-});
  }
 }
 window.popup = popup;
@@ -277,8 +269,7 @@ function submit(){
       if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
-       document.getElementById(logger_questionPages[animationIndex]).style.backgroundColor = '#33A33C';
-        document.getElementById(logger_questionPages[animationIndex]).style.color = '#fff';
+       document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>You got it!";
         won[animationIndex] = true;
       }
       //check if answer is correct

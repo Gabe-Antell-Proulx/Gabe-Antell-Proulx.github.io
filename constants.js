@@ -273,7 +273,7 @@ emoji: '🧂'
 {
   answers: ['P', 'S', 'A', 'T'],
   theme: "Jr's challenge",
-  fullanswers: ['<b>P</b>olonium', 'The <b>S</b>outhern Ocean', "<b>A</b>nt Man", '<b>T</b>ale of Two Cities'],
+  fullanswers: ['<b>P</b>oland', 'The <b>S</b>outhern Ocean', "<b>A</b>nt Man", '<b>T</b>ale of Two Cities'],
   sciQuestions: [
     "Sci: Both the mathematicians who created the Banach-Tarski Paradox were from this country.",
     "Sci: The scientists Zygalski, Rozycki, and Rejewski from this nation gave the cipher for the Enigma code to the Allies before the German invasion of this country.",

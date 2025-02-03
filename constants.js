@@ -676,7 +676,7 @@ emoji: '📺'
   {
  answers: ['M', 'A', 'S', 'K'],
  theme: "20's fashion", 
- fullanswers: ['<b>M</b>antle', '<b>A</b>rgentina', "<b>S</b>mith, Will", '<b>K</b>eats'],
+ fullanswers: ['<b>M</b>antle', '<b>A</b>rgentina', "Will <b>S</b>mith", '<b>K</b>eats'],
  sciQuestions: [ 
 "Sci: The topmost portion of this region is known as the Mohorovičić discontinuity.", 
 "Sci: This area makes up roughly 84% of Earth's volume and is composed primarily of silicate minerals.", 
@@ -702,6 +702,37 @@ artQuestions:[
 "Art: This poet, who died of tuberculosis at 25, wrote 'Ode to a Nightingale' and 'To Autumn.'" 
 ],
  emoji: '😷' 
+},
+  {
+  answers: ['M', 'R', 'E', 'D'],
+  theme: "60's naysayer", 
+  fullanswers: ['<b>M</b>ilgram', '<b>R</b>omania', "<b>E</b>agle", '<b>D</b>ante'],
+  sciQuestions: [ 
+    "Sci: This scientist sent information packages to people in Omaha and Wichita in his small-world experiment. (Surname)", 
+    "Sci: This person found that people were more likely to help Walter Carnap than the “Friends of the Nazi Party” in the “lost letter” experiment. (Surname)", 
+    "Sci: In his most notable experiment, participants administered increasingly powerful shocks to 'learmers.' (Surname)", 
+    "Sci: This social scientist conducted an experiment at Yale University that demonstrated people’s willingness to obey authority, even at the cost of another’s well-being. (Surname)"
+  ],
+  hisQuestions: [ 
+    "His: This country experienced a revolution in 1989 that led to the execution of its leader, Nicolae Ceaușescu.", 
+    "His: This non-landlocked country shares the Iron Gates, which form the boundary between the Carpathian and Balkan Mountains.", 
+    "His: Vlad Țepeș, from this country, was given the epithet 'the Impaler.'", 
+    "His: The capital of this country is Bucharest, and it includes the regions of Wallachia and Transylvania."
+  ], 
+  culQuestions:[ 
+    "Cul: The Apollo 11 lunar module was given this call sign during the first moon landing.", 
+        "Cul: In golf, a score of two strokes under par on a hole is called this.",
+        "Cul: This bird is the mascot of the Philadelphia NFL team.", 
+    "Cul: The emblem of the United States features this bird holding arrows and an olive branch.", 
+  ], 
+  artQuestions:[
+    "Art: This author invented a verse form of stanzas with 11-syllable lines in which the first and third lines rhyme, and the second line rhymes with the first and last lines of the next stanza. (First Name)", 
+    "Art: This poet created the work 'La Vita Nuova.' (First Name)",
+    "Art: A poem by this author opens “Midway through life’s journey,” after which the narrator encounters a lion, a leopard, and a she-wolf. (First Name)", 
+    "Art: This poet, born in Florence, wrote an epic that describes a journey through Hell, Purgatory, and Paradise. (First Name)"
+  ],
+  emoji: '🐴' 
 }
+
 
 ]

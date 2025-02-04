@@ -49,6 +49,36 @@ export const puzzles = [
   artQuestions:['Art: The name of this instrument has greek roots, with its first half meaning "wood," and its second half meaning "sound."','Art: Instruments similar to this one include the glockenspiel, marimba and vibraphone.','Art: Camille Saint-Saens used this instrument to imitate the sounds of bones.','Art: The music from this instrument comes from a mallet hitting different sized wooden bars.'],
   emoji: '🍫'
 },
+{
+ answers: ['W', 'R', 'I', 'T'],
+ theme: "It can be in suspense", 
+ fullanswers: ['<b>W</b>eber', '<b>R</b>osie the Riveter', '<b>I</b>taly', '<b>T</b>rumpet'],
+ sciQuestions: [ 
+"Sci: A thinker with this name divided legitimate leadership into traditional, charismatic, and rational-legal authority in his lecture “Politics as a Vocation.”",  
+"Sci: A law name after one person with this name states that the noticeable difference between two stimuli is a constant ratio of the original stimulus.",  
+"Sci: A German sociologist with this name wrote 'The Protestant Ethic' and the 'Spirit of Capitalism.'",  
+"Sci: This SI unit of magnetic flux was named after a physicist who formulated a law of electromagnetic induction."  
+ ],  
+ hisQuestions: [  
+   "His: Women working as these individuals in Great Britain were referred to as “Canary Girls.”",
+   "His: A so-called “cousin” of this person named Wendy worked at the Kaiser Shipyards.",  
+"His: This person steps on a copy of Mein Kampf while on lunch break in a painting by Norman Rockwell.",  
+"His: This figure was used in a 1942 Westinghouse Electric poster reading 'We Can Do It!'"
+ ],  
+ culQuestions:[  
+"Cul: This country won the FIFA World Cup in 1934, 1938, 1982, and 2006.",
+   "Cul: There were three podium sweeps in the 2012 Olympics, including this country’s sweep in the Women’s foil.", 
+"Cul: This nation's Serie A league features teams like Juventus, AC Milan, and Inter Milan.",  
+"Cul: This European country is home to the Monza Grand Prix in Formula 1 racing."
+ ],  
+ artQuestions:[  
+"Art: Jeremiah Clarke’s The Prince of Denmark March is sometimes called this instrument’s voluntary.",  
+"Art: 'A Night in Tunisia' played a 'bent' version of this instrument.",  
+"Art: One bandleader played this instrument on his album Kind of Blue.",  
+"Art: A player of this instrument pioneered scat singing on the track “Heebie Jeebies” and sang of “trees of green” on “It’s a Wonderful World.”"  
+ ],  
+ emoji: '📜'  
+},
 
 {
 answers: ['U', 'S', 'S', 'R'],

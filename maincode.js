@@ -3,6 +3,7 @@ const today = new Date();
 //change the start date, abc
 const startDate = new Date('2025-01-29T00:00:00').toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+console.log(number);
 
 var avgScore = 0;
 var pageOpen = false;

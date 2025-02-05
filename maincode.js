@@ -1,5 +1,5 @@
 import { puzzles } from './constants.js';
-const today = new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
+const today = new Date();
 //change the start date, abc
 const startDate = new Date('2025-01-29T19:30:00-07:00');
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));

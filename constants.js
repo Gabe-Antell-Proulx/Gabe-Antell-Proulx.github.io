@@ -762,7 +762,39 @@ artQuestions:[
     "Art: This poet, born in Florence, wrote an epic that describes a journey through Hell, Purgatory, and Paradise. (First Name)"
   ],
   emoji: '🐴' 
+},
+  {
+ answers: ['T', 'M', 'N', 'T'],
+ theme: "Shell-shocked", 
+ fullanswers: ['<b>T</b>itration', '<b>M</b>aori', '<b>N</b>ight at the Museum', '<b>T</b>reasure Island'],
+ sciQuestions: [ 
+"Sci: In a form of calorimetry used to measure the binding affinity between ligands and macromolecules, this technique is performed isothermally.", 
+"Sci: The equivalence point in this technique is often identified using indicators such as phenolphthalein.", 
+"Sci: A burette is typically used in this process to slowly add chemicals to an analyte solution.", 
+"Sci: This technique is commonly used to determine the acidity or basicity of a solution using neutralization reactions."
+ ],
+ hisQuestions: [ 
+"His: The Treaty of Waitangi, signed in 1840, established British sovereignty over the lands of these people.", 
+   "His: This ethnic group developed the language Te Reo and is the primary indigenous population of Aotearoa.",
+"His: This culture is known for its haka, a ceremonial dance often performed before battle.", 
+"His: This indigenous group of New Zealand is famous for their wood carving and facial tattooing traditions.", 
+ ], 
+ culQuestions:[ 
+"Cul: The "Hunnish" language in this film is completely improvised.",
+   "Cul: Trainers spent several weeks training Crystal the Monkey to slap and bite Ben Stiller in the film."
+"Cul: This insipid movie included Robin Williams as Teddy Roosevelt and Owen Wilson as a tiny cowboy.", 
+   "Cul: Larry Daley is the main character in this film franchise where exhibits in the title building magically come to life at night.", 
+ ], 
+ artQuestions:[
+"Art: At the start of this novel, Billy Bones has a stroke after confronting Black Dog and again after Pew gives them the “black spot.”", 
+"Art: The antagonist of this novel has a talking parrot named Captain Flint.", 
+"Art: This book popularized the concept of a pirate treasure map marked with an 'X'.",
+   "Art: The character Long John Silver appears in this classic pirate adventure novel by Robert Louis Stevenson.", 
+
+ ],
+ emoji: '🐢' 
 }
+
 
 
 ]

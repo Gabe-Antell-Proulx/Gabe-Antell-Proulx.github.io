@@ -793,8 +793,36 @@ artQuestions:[
 
  ],
  emoji: '🐢' 
+},
+  {
+ answers: ['P', 'A', 'R', 'K'],
+ theme: "Theme follower", 
+ fullanswers: ['<b>P</b>luto', '<b>A</b>thens', "<b>R</b>amadan", 'Frida <b>K</b>ahlo'],
+ sciQuestions: [ 
+ "Sci: This object became the first Kuiper Belt object to be discovered when Clyde Tombaugh observed it in 1930.", 
+    "Sci: NASA's New Horizons spacecraft provided the first close-up images of this distant object in 2015.", 
+ "Sci: This object has five known moons, including Charon, Styx, and Hydra.", 
+ "Sci: This former ninth planet in the solar system is named after the Roman god of the underworld." 
+ ],
+ hisQuestions: [ 
+   "His: Nine archons governed this city, where a coup established the oligarchical Council of 400, later replaced by an Assembly in which all adult male citizens could participate.", 
+ "His: People of this city blamed a war with Samos on a former Milesian courtesan named Aspasia, the lover of one of its leaders.", 
+ "His: The Delian League was headed by this city, where plague broke out in 429 BC, killing its leader, Pericles.", 
+ "His: The Parthenon, a temple dedicated to Athena, is a major landmark of this city." 
+ ], 
+ culQuestions:[ 
+ "Cul: Comparing black and white threads during this observance determines daybreak.", 
+ "Cul: During this observance, special sunnah prayers called Tarawih are read each night.", 
+ "Cul: This month is determined by the lunar calendar and shifts about 10-12 days earlier each year in the Gregorian calendar.", 
+ "Cul: This religious observance concludes with the celebration of Eid al-Fitr." 
+ ], 
+ artQuestions:[
+ "Art: In a portrait by this artist, Fulang-Chang is behind the shoulder of the subject, who stands against a backdrop of green leaves and bleeds from her neck due to her jewelry. (Surname)", 
+ "Art: This artist's works can be seen in the 'Blue House.' (Surname)", 
+ "Art: One of this artist’s most famous works, depicts two versions of herself seated side by side, one without a heart. (Surname)", 
+ "Art: This artist, known for her unibrow and use of vibrant colors, painted 'Self-Portrait with Thorn Necklace and Hummingbird.' (Surname)" 
+ ],
+ emoji: '🎡' 
 }
-
-
 
 ]

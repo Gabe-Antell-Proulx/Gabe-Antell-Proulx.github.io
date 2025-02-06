@@ -780,7 +780,7 @@ artQuestions:[
 "His: This indigenous group of New Zealand is famous for their wood carving and facial tattooing traditions.", 
  ], 
  culQuestions:[ 
-"Cul: The "Hunnish" language in this film is completely improvised.",
+"Cul: The 'Hunnish' language in this film is completely improvised.",
    "Cul: Trainers spent several weeks training Crystal the Monkey to slap and bite Ben Stiller in the film."
 "Cul: This insipid movie included Robin Williams as Teddy Roosevelt and Owen Wilson as a tiny cowboy.", 
    "Cul: Larry Daley is the main character in this film franchise where exhibits in the title building magically come to life at night.", 

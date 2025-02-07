@@ -122,7 +122,7 @@ emoji: '🐈'
 },
 {
 answers: ['W', 'I', 'N', 'E'],
-theme: "Red, white, but not blue",
+theme: "Red or white, but not blue",
 fullanswers: ['<b>W</b>ater', '<b>I</b>nca Empire', "<b>N</b>ew York", '<b>E</b>lephants'],
 sciQuestions: [
   "Sci: This substance is split in a photolysis reaction.",

@@ -823,6 +823,37 @@ artQuestions:[
  "Art: This artist, known for her unibrow and use of vibrant colors, painted 'Self-Portrait with Thorn Necklace and Hummingbird.' (Surname)" 
  ],
  emoji: '🎡' 
+},
+{
+ answers: ['O', 'S', 'H', 'A'],
+ theme: "Better safe than sorry", 
+ fullanswers: ['<b>O</b>btuse Triangle', '<b>S</b>panish-American War', '<b>H</b>amburgers', '<b>A</b>ida'],
+ sciQuestions: [ 
+"Sci: It is impossible to inscribe more than one square in this type of triangle.", 
+"Sci: The circumcenter of this type of triangle lies outside of the triangle itself.", 
+"Sci: The Pythagorean theorem in this type of triangle is modified to include a subtraction term rather than an addition term.", 
+"Sci: A triangle with angles measuring 30°, 120°, and 30° would be classified as this type."
+ ],
+ hisQuestions: [ 
+"His: During this conflict, George Dewey gave the order “You may fire when ready” at the Battle of Manila Bay.",
+   "His: The explosion of the USS Maine in Havana Harbor helped spark this 1898 conflict.", 
+"His: Theodore Roosevelt’s Rough Riders famously charged up San Juan Hill during this conflict.", 
+   "His: This war resulted in the United States gaining control of Puerto Rico, Guam, and the Philippines." 
+ ], 
+ culQuestions:[ 
+"Cul: At the end of a 2004 film, a large amountof these food items are paid for by a drug-addled Neil Patrick Harris.", 
+"Cul: A phone shaped like one of these foods is used by the title character of Juno.", 
+   "Cul: A 'Big Kahuna' variety of theseitems is discussed in Pulp Fiction, which also contains a scene detailing how, in France, a type of them isnamed a 'Royale with Cheese.'",
+"Cul: This food is often served with toppings such as lettuce, tomato, and pickles, and typically comes with a side of fries."
+ ], 
+ artQuestions:[
+"Art: The title character of this opera is in love with the military comander Radamès.", 
+"Art: This opera, which premiered in 1871, features the famous 'Triumphal March.'", 
+"Art: This opera is frequently performed in outdoor arenas due to its large-scale choral and orchestral requirements.",
+   "Art: This Verdi opera follows an Ethiopian princess who is captured and enslaved in Egypt."
+ ],
+ emoji: '⚠️' 
 }
+
 
 ]

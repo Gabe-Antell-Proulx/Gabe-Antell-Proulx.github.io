@@ -853,7 +853,36 @@ artQuestions:[
    "Art: This Verdi opera follows an Ethiopian princess who is captured and enslaved in Egypt."
  ],
  emoji: '⚠️' 
+},
+  {
+ answers: ['I', 'M', 'D', 'B'],
+ theme: "I'm seeing stars!", 
+ fullanswers: ['<b>I</b>nsulin', '<b>M</b>ao Zedong', '<b>D</b>arts', '<b>B</b>ronte'],
+ sciQuestions: [  
+"Sci: This hormone was first isolated by Frederick Banting and Charles Best.",  
+"Sci: This protein was the first protein to be sequenced, as it only contains 51 amino acids.",  
+"Sci: This hormone, produced in the pancreas, allows glucose to enter cells for energy.",  
+"Sci: This hormone is commonly injected by diabetics to manage blood sugar levels."  
+ ],  
+ hisQuestions: [  
+"His: During a fad in this leader’s rule, formaldehyde was used to preserve gifted mangos that were not eaten and became a cult symbol of the working class. (Common Name)",  
+"His: This leader led the Long March in the 1930s. (Common Name)",  
+"His: This man caused a famine after attempting to eradicate sparrows in the Four Pests campaign. (Common Name)",  
+"His: This Communist leader wrote the 'Little Red Book.' (Common Name)"  
+ ],  
+ culQuestions:[  
+"Cul: According to most experts, Phil Taylor, nicknamed 'The Power,' is widely considered the best player of this sport of all time.",  
+"Cul: The Winmau World Masters is one major competition of this sport.",  
+"Cul: This game includes variations like '501' and 'Cricket.'",  
+"Cul: This common bar game used to use arrow stubs or crossbow bolts, but now use small projectiles made of tungsten."  
+ ],  
+ artQuestions:[  
+"Art: One author with this name wrote a novel narrated by the servant Nelly Dean that takes place at an estate owned by the Earnshaws.",  
+"Art: Agnes Grey was one book written by an author with this name.",  
+"Art: Many authors of this surname chose instead to go by 'Bell' when publishing their works",  
+"Art: This is the name of an English literary family who produced many classic novels in the 19th century, including 'Wuthering Heights' and 'Jane Eyre.'"  
+ ],  
+ emoji: '🎥'  
 }
-
 
 ]

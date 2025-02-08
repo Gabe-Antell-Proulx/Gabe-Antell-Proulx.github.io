@@ -153,7 +153,7 @@ emoji: '🍷'
 {
 answers: ['G', 'O', 'L', 'F'], 
 theme: "Let's hit the club!", 
-fullanswers: ['<b>G</b>alaxies', '<b>O</b>ttoman Empire', '<b>L</b>akers', '<b>F</b>rankenstein'], 
+fullanswers: ['<b>G</b>alaxies', '<b>O</b>ttoman Empire', 'L.A. <b>L</b>akers', '<b>F</b>rankenstein'], 
 sciQuestions: [ 
 "Sci: These massive things are classified into types such as spiral, elliptical, and irregular.", 
 "Sci: These entities can be described as gravitationally bound systems of dark matter, stars, and dust.",
@@ -605,7 +605,7 @@ emoji: '📺'
 },
 { 
   answers: ['C', 'H', 'O', 'P'], 
-  theme: "Chop ____", 
+  theme: "Say it twice to make things quicker", 
   fullanswers: [
     '<b>C</b>', 
     '<b>H</b>enry VIII', 

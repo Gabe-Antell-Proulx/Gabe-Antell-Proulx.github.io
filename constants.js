@@ -883,6 +883,35 @@ artQuestions:[
 "Art: This is the name of an English literary family who produced many classic novels in the 19th century, including 'Wuthering Heights' and 'Jane Eyre.'"  
  ],  
  emoji: '🎥'  
+},
+  {
+  answers: ['V', 'L', 'O', 'G'],
+  theme: '"What is up you guys!"', 
+  fullanswers: ['<b>V</b>iscosity', '<b>L</b>ouis XVI', '<b>O</b>pra', '<b>G</b>eorge Gershwin'],
+  sciQuestions: [ 
+    "Sci: The Navier-Stokes equations reduce to the Euler equations when this quantity is zero. ",
+    "Sci: The substance 'pitch' is very high in this quantity.",
+    "Sci: The Reynolds number is the ratio of inertial forces to forces due to this quantity.",
+    "Sci: This is the key factor that affects the rate at which fluids move in pipes or channels."
+  ],
+  hisQuestions: [ 
+    "His: After recognizing this man from a 50-livre note, Jean-Baptiste Drouet foiled an attempt by him to escape to Austria.",
+    "His: The Director of the Treasury under this king, Jacques Necker, ignited an uproar by publishing the budget.",
+    "His: This king eventually was forced to recognize the National Assembly.",
+    "His: This man was married to Marie Antoinette."
+  ], 
+  culQuestions: [
+    "Cul: An early Internet meme depicted Tom Cruise killing this person, in a parody of a clip where Cruise jumped on this person's couch. (First Name)",
+    "Cul: This person started Harpo Productions, which produces the shows Dr. Phil, Rachael Ray, and The Dr. Oz Show. (First Name)",
+    "Cul: This person did a followup interview with James Frey to discuss lies in his book A Million Little Pieces, which she had highlighted in her book club. (First Name)",
+    "Cul: The 2018 film 'A Wrinkle In Time' stars this media mogul and former talk show host. (First Name)"
+  ], 
+  artQuestions:[
+    "Art: A song composed by this person that repeats the phrase 'hi-ho, alas' titles an Ahmad Jamal live album recorded at the Pershing Hotel. (Surname)",
+    "Art: His iconic works blend jazz with classical, and his famous song 'Summertime' was a staple of the musical Porgy and Bess. (Surname)",
+    "Art: This composer famously used taxi horns in another piece, and wrote many pieces with his brother Ira. (Surname)",
+    "Art: This artist is recognized as one of the most important composers of the 20th century, creating both 'An American in Paris' and 'Rhapsody in Blue.' (Surname)"
+  ],
+  emoji: '📹' 
 }
-
 ]

@@ -72,7 +72,6 @@ function saveState() {
  update.push(document.getElementById('endpage').innerHTML);
  update.push(question_levels);
  update.push(won);
- console.log(update);
  localStorage.removeItem('update');
  localStorage.setItem('update', JSON.stringify(update));
 }
@@ -80,13 +79,11 @@ function loadState() {
  var k = 0;
  const gameStateString = localStorage.getItem('update');
  const gameState = JSON.parse(gameStateString);
- console.log(gameState);
  if (gameState == null) {
    saveState();
    const gameStateString = localStorage.getItem('update');
    const gameState = JSON.parse(gameStateString);
  }
-  console.log(gameState);
  if (gameState[51] == number) {
    for (let i = 0; i < logger.length; i++) {
      if (logger[i] != '') {

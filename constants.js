@@ -887,7 +887,7 @@ artQuestions:[
   {
   answers: ['V', 'L', 'O', 'G'],
   theme: '"What is up you guys!"', 
-  fullanswers: ['<b>V</b>iscosity', '<b>L</b>ouis XVI', '<b>O</b>pra', '<b>G</b>eorge Gershwin'],
+  fullanswers: ['<b>V</b>iscosity', '<b>L</b>ouis XVI', '<b>O</b>prah', 'George <b>G</b>ershwin'],
   sciQuestions: [ 
     "Sci: The Navier-Stokes equations reduce to the Euler equations when this quantity is zero. ",
     "Sci: The substance 'pitch' is very high in this quantity.",
@@ -913,5 +913,36 @@ artQuestions:[
     "Art: This artist is recognized as one of the most important composers of the 20th century, creating both 'An American in Paris' and 'Rhapsody in Blue.' (Surname)"
   ],
   emoji: '📹' 
+},
+  {
+ answers: ['P', 'T', 'S', 'D'],
+ theme: "What a vet may be concerned about", 
+ fullanswers: ['<b>P</b>hobos', 'Harry S. <b>T</b>ruman', '<b>S</b>einfeld', 'Marcel <b>D</b>uchamp'],
+ sciQuestions: [ 
+"Sci: This body is home to the Gulliver's Travels-inspired Laputa Regio.", 
+"Sci: This object’s largest crater is Stickney Crater.", 
+"Sci: This celestial body, whose name means 'fear' in Greek, was discovered by Asaph Hall in 1877.", 
+"Sci: This irregularly-shaped, asteroid-like satellite that orbits Mars along with its smaller companion, Deimos."
+ ],
+ hisQuestions: [ 
+"His:An assassination attempt on this president was conducted by Griselio Torresola and Oscar Callazo, the former of whom was killed by Leslie Coffelt. (Surname)", 
+"His: This president implemented the Marshall Plan, which provided economic aid to rebuild Europe after World War II. (Surname)", 
+"His: A famous picture of this president shows him holding up a mistaken Chicago Tribune claiming he had lost to Thomas Dewey. (Surname)", 
+"His: This president’s namesake doctrine pledged U.S. support to countries resisting communist expansion during the Cold War. (Surname)"
+ ], 
+ culQuestions:[ 
+"Cul: A character in this show, despite lying about being a marine biologist, successfully extracts a golf ball from a whale’s blowhole.", 
+"Cul: Susan Ross was killed off in this series after licking cheap wedding envelopes chosen by her fiancé.", 
+"Cul: The main characters of this show frequently visit Monk’s cafe.", 
+"Cul: This show has sometimes been described as a 'show about nothoing.'"
+ ], 
+ artQuestions:[
+"Art: This artist’s collaboration Anemic Cinema is a film of spinning discs called Rotoreliefs, and another collaboration of his called Entract shows him playing chess with another artist. (Surname)", 
+"Art: 'In Advance of the Broken Arm' was a sculpture by this artist, who used the pseudonym Rrose Sélavy. (Surname)", 
+"Art: This artist put a mustache on the Mona Lisa in his 'L.H.O.O.Q.' (Surname)", 
+"Art: This avant-garde figure played a key role in the Dada movement and created the painting 'Nude Descending a Staircase, No. 2.' (Surname)"
+ ],
+ emoji: '🪖' 
 }
+
 ]

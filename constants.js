@@ -257,7 +257,7 @@ hisQuestions: [
 "His: This mountain range, the longest in the world, spans seven countries including Peru, Colombia, and Argentina." 
 ], 
 culQuestions: [ 
-"Cul: This Disney film features a young lion named Simba and his journey to reclaim his throne.", 
+"Cul: One character declares “not a tale I distort” in a song that was added to the DVD version of this film.", 
 'Cul: One Hollywood exec described this film as "Hamlet meets Bambi in Africa."', 
 "Cul: Songs from this movie include 'The Circle of Life' and 'Can You Feel the Love Tonight.'", 
 "Cul: This Disney film features a young lion named Simba and his journey to reclaim his throne." 

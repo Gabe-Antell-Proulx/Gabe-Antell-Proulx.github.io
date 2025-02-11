@@ -245,7 +245,7 @@ answers: ['S', 'A', 'L', 'T'],
 theme: "It makes up a 'great' lake", 
 fullanswers: ['<b>S</b>ine', 'The <b>A</b>ndes', 'The <b>L</b>ion King', '<b>T</b>apestry'], 
 sciQuestions: [ 
-"Sci: This fucntion's namesake law is used to solve the remaining sides and angles in an ASA (angle-side-angle) triangle.", 
+"Sci: This function's namesake law is used to solve the remaining sides and angles in an ASA (angle-side-angle) triangle.", 
 "Sci: When this function is applied to pi over 2, you get 1.", 
 "Sci: The reciprocal of this function is cosecant.", 
 "Sci: This trigonometric function represents the ratio of the opposite side to the hypotenuse in a right triangle." 

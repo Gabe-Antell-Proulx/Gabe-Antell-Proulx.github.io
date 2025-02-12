@@ -943,6 +943,37 @@ artQuestions:[
 "Art: This avant-garde figure played a key role in the Dada movement and created the painting 'Nude Descending a Staircase, No. 2.' (Surname)"
  ],
  emoji: '🪖' 
+},
+{
+ answers: ['E', 'D', 'E', 'N'],
+ theme: "One bad apple...", 
+ fullanswers: ['<b>E</b>lectronegativity', '<b>D</b>anube', '<b>E</b>minem', 'Friedrich <b>N</b>ietzsche'],
+ sciQuestions: [ 
+  "Sci: The negative derivative of this quantity with respect to N is equal to hardness.",
+ "Sci: This property of an atom is measured using the Pauling scale.", 
+ "Sci: Fluorine has the highest value for this property, while noble gases typically have no value assigned to it.", 
+ "Sci: This property generally increases across a period and decreases down a group in the periodic table."
+ ],
+ hisQuestions: [ 
+ "His: After a failed rebellion against a monarchy sometimes named for this river, Lajos Kossuth proposed the creation of a federation named for this river.", 
+ "His: Simian is an island in this river which previously contained Ada Kaleh, a Turkish exclave destroyed after the construction of this river’s Iron Gates Dam.", 
+ "His: This river, which originates in Germany’s Black Forest, was a crucial trade route in the Habsburg and Ottoman Empires.", 
+ "His: This second-longest river in Europe flows into the Black Sea and is mentioned in Johann Strauss II’s famous waltz."
+ ], 
+ culQuestions:[ 
+ "Cul: The phrase “that’s how much we have in common” is repeated on another track from an album by this artist, whose cover art is taken from that of the Beastie Boys album Licensed to Ill.", 
+ "Cul: This rapper has the Guinness World Record for the wordiest hit single.", 
+ "Cul: A popular slang word was coined in reference to a song by this artist, which sampled “Thank You” by Dido.", 
+ "Cul: His albums include ‘The Marshall Mathers LP,’ ‘Recovery,’ and ‘Music to Be Murdered By.’"
+ ], 
+ artQuestions:[
+ "Art: Along with Marx and Freud, Paul Ricoeur identified this thinker as one of three “masters of suspicion.” (Surname)", 
+ "Art: One of this thinker’s works contains chapter titles like “Why am I so wise” and “Why am I so clever.” (Surname)", 
+ "Art: This German philosopher developed the idea of ‘eternal recurrence’ and wrote extensively on morality and power. (Surname)", 
+ "Art: His works include ‘Beyond Good and Evil’ and ‘On the Genealogy of Morality.’ (Surname)"
+ ],
+ emoji: '🍎' 
 }
+
 
 ]

@@ -946,8 +946,8 @@ artQuestions:[
 },
 {
  answers: ['E', 'D', 'E', 'N'],
- theme: "One bad apple...", 
- fullanswers: ['<b>E</b>lectronegativity', '<b>D</b>anube', '<b>E</b>minem', 'Friedrich <b>N</b>ietzsche'],
+ theme: "First place",
+ fullanswers: ['<b>E</b>lectronegativity', 'The <b>D</b>anube River', '<b>E</b>minem', 'Friedrich <b>N</b>ietzsche'],
  sciQuestions: [ 
   "Sci: The negative derivative of this quantity with respect to N is equal to hardness.",
  "Sci: This property of an atom is measured using the Pauling scale.", 
@@ -973,7 +973,38 @@ artQuestions:[
  "Art: His works include ‘Beyond Good and Evil’ and ‘On the Genealogy of Morality.’ (Surname)"
  ],
  emoji: '🍎' 
+},
+{
+ answers: ['H', 'T', 'M', 'L'],
+ theme: "Ctrl + I to find it",
+ fullanswers: ['Harry <b>H</b>arlow', '<b>T</b>enochtitlan', '<b>M</b>argarita', '<b>L</b>ord of the Flies'],
+ sciQuestions: [ 
+  "Sci: An experiment of his used a modification of a device that only lets a participant open and close a door to the outside. (Surname)",
+   "Sci: This author of “The Nature of Love'' included a catapult which launched infants in one of his many “surrogate mothers” made from cloth and wire. (Surname)", 
+ "Sci: This researcher coined the term ‘contact comfort.’ (Surname)", 
+ "Sci: This psychologists is most famous for studying affection in rhesus monkeys. (Surname)"
+ ],
+ hisQuestions: [ 
+ "His: Copil’s heart marked this city’s location, directions to which were whispered by a hummingbird idol carried by priests.", 
+ "His: Foreign accounts claim that a ruler of this city was stoned to death by his subjects, forcing an occupying army to flee this city via its western causeway on La Noche Triste.", 
+  "His: This capital of the Triple Alliance was built on an island in Lake Texcoco where settlers allegedly saw an eagle eating a snake atop a cactus.",
+   "His: This city was founded by the Mexica people in 1325 and later became modern-day Mexico City."
+ ], 
+ culQuestions:[ 
+ "Cul: In 2001 a 5,861-gallon version of this drink was served up at a Jimmy Buffett-owned place in Orlando.", 
+    "Cul: Bulgakov is famous for writing a novel called 'The Master' and this name.",
+ "Cul: If you don't use the diminutive, 'Educating Rita' becomes 'Educating' this name.", 
+ "Cul: A food with this name was first invented in Naples Italy, and its colors match the Italian flag."
+ ], 
+ artQuestions:[
+ "Art: In this novel, a flapping noise from a silhouette resembling a giant ape terrifies Roger and the littluns.", 
+    "Art: Two boys in this novel, Sam and Eric, believe a dead parachutist is a terrifying beast.", 
+ "Art: A conch shell in this novel symbolizes order and civilization but is eventually shattered.", 
+ "Art: In this William Golding novel, the character Piggy is ridiculed but serves as the voice of reason, often relying on his glasses to start fires."
+ ],
+ emoji: '🧑‍💻' 
 }
+  
 
 
 ]

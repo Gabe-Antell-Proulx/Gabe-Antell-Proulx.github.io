@@ -1003,8 +1003,37 @@ artQuestions:[
  "Art: In this William Golding novel, the character Piggy is ridiculed but serves as the voice of reason, often relying on his glasses to start fires."
  ],
  emoji: '🧑‍💻' 
+},
+  {
+  answers: ['N', 'U', 'L', 'L'],
+  theme: "{}", 
+  fullanswers: ['<b>N</b>ernst equation', '<b>U</b>r', "<b>L</b>abor Party", '<b>L</b>udwig'],
+  sciQuestions: [ 
+    "Sci: This equation can be derived from the Butler-Volmer equation by setting the reaction rate equal to zero, and its namesake also developed the Third Law of Thermodynamics.", 
+    "Sci: This equation contains a logarithmic term involving reaction quotient Q and includes the gas constant R and temperature T.", 
+    "Sci: The reduction potential calculated by this equation approaches the standard electrode potential as Q approaches 1.", 
+    "Sci: Named after a German scientist, this equation is key to understanding how batteries and fuel cells operate."
+  ],
+  hisQuestions: [ 
+    "His: Two of the five known “city lament” poems decry this city’s sack under its king Ibbi-Sin.", 
+    "His: A king named [this city]-Nammu, who founded a dynasty that supplanted Lagash and the Gutians, was succeeded by Shulgi.", 
+    "His: In 1922, Katherine and Leonard Woolley excavated this city’s Royal Cemetery.", 
+    "His: The Great Ziggurat is located in this Sumerian city, which also is the namesake of a royal game."
+  ], 
+  culQuestions:[ 
+    "Cul: Clement Attlee led this political organization to victory in the 1945 UK general election.", 
+    "Cul: The former leader of this party, who awarded a peerage to inquiry author Shami Chakrabarti, was removed from its whip in 2020.", 
+    "Cul: This party's traditional symbol is a red rose.", 
+    "Cul: Keir Starmer currently leads this UK political party, which opposes the Conservative Party."
+  ], 
+  artQuestions:[
+    "Art: 'The Creatures of Prometheus' feature in a work by a man with this first name.", 
+    "Art: An architect with this first name who is often associated with the Bauhaus movement designed the Barcelona Pavilion.",
+        "Art: An Austrian-British philosopher with this first name wrote 'Tractatus Logico-Philosophicus,' a foundational text in analytic philosophy.", 
+    "Art: This traditionally German first name is shared by Wittgenstein, Mies van der Rohe, and a famous composer."
+  ],
+  emoji: '🚫' 
 }
-  
 
 
 ]

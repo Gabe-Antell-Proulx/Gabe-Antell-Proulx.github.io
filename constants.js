@@ -401,7 +401,7 @@ emoji: '🧂'
             "Sci: Humans, chimpanzees, and gorillas all belong to this biological order of mammals.",
     ],
     hisQuestions: [
-        "His: This person was the primary author of 'The Revolution,' a women's rights newspaper. (Surname)",
+        "His: This person was the primary author of 'The Revolution,' a newspaper advocating for equal rights. (Surname)",
         "His: This person was arrested for voting illegally in the 1872 presidential election. (Surname)",
         "His: A U.S. dollar coin released in 1979 featured this person's portrait, making it the first American woman to appear on circulating currency. (Surname)",
         "His: This activist helped pave the way for the 19th Amendment, granting women the right to vote in 1920. (Surname)"

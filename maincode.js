@@ -72,6 +72,7 @@ function saveState() {
  update.push(document.getElementById('endpage').innerHTML);
  update.push(question_levels);
  update.push(won);
+  console.log("update: " + update);
  localStorage.removeItem('update');
  localStorage.setItem('update', JSON.stringify(update));
 }
@@ -84,6 +85,7 @@ function loadState() {
    const gameStateString = localStorage.getItem('update');
    const gameState = JSON.parse(gameStateString);
  }
+ console.log("GameState: "+gameState);
  if (gameState[51] == number) {
    for (let i = 0; i < logger.length; i++) {
      if (logger[i] != '') {

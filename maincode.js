@@ -80,12 +80,15 @@ function loadState() {
  var k = 0;
  const gameStateString = localStorage.getItem('update');
  const gameState = JSON.parse(gameStateString);
+  console.log("GameState1: "+gameState);
  if (gameState == null) {
+   console.log("GameState2: "+gameState);
    saveState();
    const gameStateString = localStorage.getItem('update');
    const gameState = JSON.parse(gameStateString);
+   console.log("GameState3: "+gameState);
  }
- console.log("GameState: "+gameState);
+ console.log("GameState4: "+gameState);
  if (gameState[51] == number) {
    for (let i = 0; i < logger.length; i++) {
      if (logger[i] != '') {

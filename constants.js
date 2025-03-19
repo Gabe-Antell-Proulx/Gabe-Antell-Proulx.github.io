@@ -191,7 +191,7 @@ emoji: '⛳'
 "Sci: This star is located at the center of our solar system and accounts for 99.8% of its total mass."
   ],
   hisQuestions: [
-    "His: This man died after an early morning incident near Weehawken, New Jersey. (Surname)",
+    "His: This man died after an early morning incident near Weehawken. (Surname)",
     "His: This man used the pseudonym Publius for a series of essays this man wrote with John Jay and James Madison. (Surname)",
 "His: This man was instrumental in creating the U.S. financial system and served as the first Secretary of the Treasury. (Surname)",
     "His: This immigrant from the Caribbean is depicted on the $10 bill and was killed in a duel with Aaron Burr. (Surname)"
@@ -203,7 +203,7 @@ emoji: '⛳'
         "Cul: This basketball team, famous for their comedy and basketball tricks, has played in over 120 countries."
   ],
   artQuestions: [
-    "Art: This Shakespearean play is set in Elsinore Castle and follows the story of a Danish prince seeking revenge.",
+    "Art: This play is set in Elsinore Castle, and has a theme of revenge.",
     "Art: This tragedy features characters like Claudius, Ophelia, and Polonius, and explores themes of madness and betrayal.",
     "Art: The protagonist of this play feigns madness to uncover the truth about his father's murder.",
     "Art: This play features the famous soliloquy, 'To be or not to be.'"

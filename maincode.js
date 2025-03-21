@@ -406,7 +406,6 @@ document.addEventListener("keydown", (eventb) => {
      }
      document.getElementById(logger[keys_clicked + backspace - 1]).innerHTML = '';
      document.getElementById(logger[keys_clicked + backspace - 1]).style.border = '1.5px solid black';
-      document.getElementById("submitButton").style.border = '1px solid black';
      keys_clicked += backspace - 1;
    }
 
@@ -417,7 +416,7 @@ document.addEventListener("keydown", (eventb) => {
        letters_right += 1;
      }
    }
-   if ((f % 5) % (5 - letters_right) == 0) {
+   /*if ((f % 5) % (5 - letters_right) == 0) {
     document.getElementById("submitButton").style.border = '1.4px solid black';
      document.body.addEventListener("keydown", function (eventc) {
        if (eventc.keyCode == 13) {
@@ -425,7 +424,7 @@ document.addEventListener("keydown", (eventb) => {
        }
      });
     document.getElementById("submitButton").addEventListener("click", submit);
-   }
+   }*/
  }
 });
 function win() {
@@ -465,7 +464,6 @@ function win() {
  document.getElementById('X_end').style.visibility = "visible";
  document.getElementById('copier').style.visibility = 'visible';
  document.getElementById('resultsbutton').style.visibility = 'visible';
-  document.getElementById('submitButton').style.visibility = 'hidden';
  saveState();
 }
 function copy() {

@@ -8,6 +8,7 @@ function createKeyButton(keyValue) {
   const button = document.createElement('div');
   button.classList.add('key-button');
   button.id = "key-" + keyValue;
+  console.log(button.id);
   button.textContent = keyValue;
   if (keyValue == '\b') {
     button.textContent = '⌫';
@@ -337,6 +338,7 @@ function submit(){
       if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById("key-" + currentAnswers[animationIndex]).style.backgroundColor = '#33A33C';
+        console.log("key-" + currentAnswers[animationIndex]")
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
        document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>✅";
         won[animationIndex] = true;
@@ -421,8 +423,10 @@ document.addEventListener("keydown", (eventb) => {
      }
    }
    if ((f % 5) % (5 - letters_right) == 0) {
-     document.body.addEventListener("keydown", function (eventc) {
+     console.log("Ready to submit!")
+     document.addEventListener("keydown", => (eventc) {
        if (eventc.keyCode == 13) {
+       console.log("Submitted!")
         submit();
        }
      });

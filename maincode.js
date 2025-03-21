@@ -7,6 +7,7 @@ const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 function createKeyButton(keyValue) {
   const button = document.createElement('div');
   button.classList.add('key-button');
+  button.id = "key-" + keyValue;
   button.textContent = keyValue;
   if (keyValue == '\b') {
     button.textContent = '⌫';
@@ -15,9 +16,11 @@ function createKeyButton(keyValue) {
   if (keyValue == '\r') {
     button.textContent = '↵';
     button.style.width = '15px';
+      button.id = "key-enter";
     button.style.transform = 'translate(-13px)';
   }
   if (keyValue == '') {
+    button.id = "key-backspace";
     button.style.visibility = 'hidden';
   }
   button.addEventListener('click', () => {

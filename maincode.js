@@ -4,6 +4,66 @@ const today = new Date();
 const startDate = new Date('2025-01-29T19:30:00-07:00');
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
+function createKeyButton(keyValue) {
+  const button = document.createElement('div');
+  button.classList.add('key-button');
+  button.textContent = keyValue;
+  if (keyValue == '\b') {
+    button.textContent = '⌫';
+    button.style.width = '15px';
+  }
+  if (keyValue == '\r') {
+    button.textContent = '↵';
+    button.style.width = '15px';
+    button.style.transform = 'translate(-13px)';
+  }
+  if (keyValue == '') {
+    button.style.visibility = 'hidden';
+  }
+  button.addEventListener('click', () => {
+    // Add functionality here, e.g., simulate key press
+    simulateKeyPress(keyValue);
+  });
+  return button;
+}
+
+const keyboard = document.getElementById('keyboard');
+const first_row_letters = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'];
+const second_row_letters = ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'];
+const third_row_letters = ['\r','Z', 'X', 'C', 'V', 'B', 'N', 'M','\b'];
+
+first_row_letters.forEach(letter => {
+  const button = createKeyButton(letter);
+  keyboard1.appendChild(button);
+});
+second_row_letters.forEach(letter => {
+  const button = createKeyButton(letter);
+  keyboard2.appendChild(button);
+});
+third_row_letters.forEach(letter => {
+  const button = createKeyButton(letter);
+  keyboard3.appendChild(button);
+});
+
+function simulateKeyPress(key) {    
+  // Create and dispatch the keydown event
+  const event = new KeyboardEvent('keydown', {
+    key: key,
+    code: `Key${key.toUpperCase()}`,
+    keyCode: key.charCodeAt(0),
+    which: key.charCodeAt(0),
+    bubbles: true
+  });
+
+  // Dispatch the event on the `document`
+  document.dispatchEvent(event);
+}
+
+// Example listener to test the event
+document.addEventListener('keydown', (event) => {
+  console.log("Key pressed:"+event.keyCode);
+});
+
 var avgScore = 0;
 var pageOpen = false;
 var streak = 0;

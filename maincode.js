@@ -416,15 +416,13 @@ document.addEventListener("keydown", (eventb) => {
        letters_right += 1;
      }
    }
-   /*if ((f % 5) % (5 - letters_right) == 0) {
-    document.getElementById("submitButton").style.border = '1.4px solid black';
+   if ((f % 5) % (5 - letters_right) == 0) {
      document.body.addEventListener("keydown", function (eventc) {
        if (eventc.keyCode == 13) {
         submit();
        }
      });
-    document.getElementById("submitButton").addEventListener("click", submit);
-   }*/
+   }
  }
 });
 function win() {

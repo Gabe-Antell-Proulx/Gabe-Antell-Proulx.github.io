@@ -413,6 +413,65 @@ tab-size: 8;
   animation-duration: 0.5s;
 }
 
+/*keyboard*/
+
+.keyboard {
+      display: grid;
+      gap: 10px;
+      align-items: center;
+    }
+    .keyboard {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers all rows horizontally */
+      gap: 10px; /* Adds spacing between rows */
+    }
+
+    .row {
+      display: grid;
+      gap: 10px;
+      justify-content: center; /* Centers the grid items within each row */
+    }
+    
+    .row-1 {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(10, 35px);
+    }
+
+    .row-2 {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(9, 35px);
+    }
+
+    .row-3 {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(9, 35px);
+    }
+
+    .key-button {
+      padding: 15px;
+      font-weight: bold;
+      margin: auto;
+      font-size: 18px;
+      background-color: #ddd;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      height: 5px;
+      width: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .key-button:hover {
+      background-color: #ccc;
+    }
+
 /*here*/
 body {
 text-align: center;

@@ -191,6 +191,7 @@ function loadState() {
      document.getElementById("key-" + document.getElementById('sci1').innerHTML).style.backgroundColor = '#33A33C'
    }
    }
+ }
  else{
    for (let x=0;x<=3;x++){
      document.getElementById(logger_questionPages[x]).innerHTML += "<li>" + logger_prompts[x][0].substr(4, logger_prompts[x][0].length) + "</li>";

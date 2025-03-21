@@ -424,7 +424,7 @@ document.addEventListener("keydown", (eventb) => {
    }
    if ((f % 5) % (5 - letters_right) == 0) {
      console.log("Ready to submit!")
-     document.addEventListener("keydown", => (eventc) {
+     document.addEventListener("keydown", (eventc) => {
        if (eventc.keyCode == 13) {
        console.log("Submitted!")
         submit();

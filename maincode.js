@@ -378,7 +378,7 @@ function submit(){
     animateDiv(logger[enter_keys_clicked]);
   }
 }
-document.body.addEventListener("keydown", function (eventb) {
+document.addEventListener("keydown", function (eventb) {
  if (pageOpen == false && gameWon == false && animationHappening == false) {
    var letters_right = 0;
    for (let p = 0; p < 4; p++) {

@@ -19,7 +19,6 @@
 
     <script src="script.js"></script>
     <button onclick="openInstructions()" style="left:50%; background:none; transform:translate(0,430px);border:0; font-size:20px;color:black;"><u>How to play</u></button>      
-    <h1 id='mobilePage' style='visibility:hidden; color:white; font-family:"Trebuchet MS";'> <center>I am still working on coding mobile, try re-entering the website on a computer browser!</center> </h1>
     <img src='logo.png' style='height:150px; width:145px; position:absolute; left:50%; top: 110px;transform: translate(-50%); '>
     <div style="position:absolute; left: 50%; top: 250px; transform: translate(-50%); font-size:50px; font-weight: bold;">Mnemonicle</div>
     <div style="position:absolute; font-size:20px; font-weight: normal; left:50%; top:320px;transform: translate(-50%); ">A daily trivia game!</div>
@@ -41,13 +40,6 @@
       <button id='X_instructions' class='X X_instructions' onclick="Xout('instructionsPage','X_instructions')" style='visibility: hidden;'>✕</button>
     </div>
     <script>
-      if (window.matchMedia("(max-width: 767px)").matches) {
-      document.getElementById('all').style.visibility = 'hidden';
-      document.body.style.backgroundColor = "#111111";
-      document.getElementById('mobilePage').style.visibility = 'visible';
-      //mobile device
-      }
-      
       //change startDate to start date
       const today = new Date();
       const startDate = new Date('2024-12-12T18:30:00-07:00');

@@ -187,8 +187,8 @@ function loadState() {
      document.getElementById('X_end').style.visibility = 'hidden';
    }
    for (let butterfly=0; butterfly<4; butterfly++){
-   if (document.getElementById(logger[15+butterfly]).style.backgroundColor = '#33A33C'){
-     document.getElementById("key-" + document.getElementById('sci1').innerHTML).style.backgroundColor = '#33A33C'
+   if (document.getElementById(logger[15+butterfly]).style.backgroundColor == '#33A33C'){
+     document.getElementById("key-" + document.getElementById('sci1').innerHTML).style.backgroundColor = '#33A33C';
    }
    }
  }
@@ -343,6 +343,7 @@ function submit(){
       if (document.getElementById(logger[enter_keys_clicked + animationIndex]).innerHTML == currentAnswers[animationIndex] && won[animationIndex] == false) {
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById("key-" + currentAnswers[animationIndex]).style.backgroundColor = '#33A33C';
+        document.getElementById("key-" + currentAnswers[animationIndex]).style.color = '#fff';
         console.log("key-" + currentAnswers[animationIndex]);
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
        document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>✅";

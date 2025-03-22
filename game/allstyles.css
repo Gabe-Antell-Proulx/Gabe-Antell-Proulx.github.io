@@ -16,7 +16,7 @@ position: absolute;
 .grid {
 justify-content: center;
 align-items: center;
-position: absolute;
+position: relative;
 left: 50%;
 transform: translateX(-50%);
 top: 190px;

@@ -101,6 +101,14 @@ left: 76.3%;
 top: 38px;
 }
 
+.right-buttons {
+left: 76.3%;
+}
+
+.left-buttons {
+left: 10%;
+}
+
 .bottomButtons {
 justify-content: center;
 align-items: center;

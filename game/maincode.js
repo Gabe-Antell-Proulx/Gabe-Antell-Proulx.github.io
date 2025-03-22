@@ -68,6 +68,18 @@ document.addEventListener('keydown', (event) => {
   console.log("Key pressed:"+event.keyCode);
 });
 
+function isMobile() {
+    return window.matchMedia("(max-width: 768px)").matches;
+}
+
+if (isMobile()) {
+  const parent = document.querySelector("#all"); // Replace with your parent div's ID or class
+  const childDivs = parent.querySelectorAll("div");
+
+  childDivs.forEach(div => {
+    div.style.transform = "scale(0.9)"; // Adjust the scale as needed
+  });
+}
 var avgScore = 0;
 var pageOpen = false;
 var streak = 0;

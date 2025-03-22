@@ -17,7 +17,8 @@ position: absolute;
 justify-content: center;
 align-items: center;
 position: absolute;
-left: 28.2%;
+left: 50%;
+transform: translate(50%);
 top: 190px;
 }
 

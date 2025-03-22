@@ -106,7 +106,7 @@ left: 76.3%;
 }
 
 .left-buttons {
-left: 10%;
+left: 15%;
 }
 
 .bottomButtons {
@@ -312,12 +312,13 @@ font-size: 15px;
 height: 50px;
 width: 100px;
 background-color: #fff;
-border: 1px solid #333;
+border: 3px solid #333;
 border-radius: 10px;
 padding: 20px;
 text-decoration: none;
 visibility: hidden;
 font-family: "Trebuchet MS";
+font-weight: bold;
 }
 
 .allquestionsbutton {

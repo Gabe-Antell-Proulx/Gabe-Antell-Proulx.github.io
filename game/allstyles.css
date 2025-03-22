@@ -452,7 +452,9 @@ tab-size: 8;
 
 /*here*/
 body {
-text-align: center;
+  width: 100%;
+  max-width: 100vw;
+  text-align: center;
 }
 
 #mainContainer {

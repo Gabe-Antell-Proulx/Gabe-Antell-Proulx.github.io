@@ -450,6 +450,10 @@ tab-size: 8;
   background-color: #ccc;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 /*here*/
 body {
   width: 100%;

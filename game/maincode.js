@@ -77,8 +77,8 @@ if (isMobile()) {
   const childDivs = parent.querySelectorAll("div");
 
   childDivs.forEach(div => {
-    div.style.transformOrigin = "top left";
-    div.style.transform = "scale(0.9)"; // Adjust the scale as needed
+    //div.style.transformOrigin = "top left";
+    //div.style.transform = "scale(0.9)"; // Adjust the scale as needed
   });
 }
 var avgScore = 0;

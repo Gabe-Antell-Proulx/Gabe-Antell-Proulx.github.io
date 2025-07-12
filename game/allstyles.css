@@ -29,12 +29,11 @@ box-sizing: border-box;
 .entireGrid {
 justify-content: center;
 align-items: center;
-position: absolute;
+position: relative;
 left: 50%;
 /*width:795px;*/
 transform: translateX(-50%);
 top: 190px;
-/*position: relative;*/
 }
 
 .hidden {

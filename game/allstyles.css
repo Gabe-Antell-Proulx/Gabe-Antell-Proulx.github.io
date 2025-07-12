@@ -22,8 +22,6 @@ position: absolute;
   height: 80vw;
   max-width: 600px;
   max-height: 600px;
-  margin: 50px auto;
-  border: 2px solid #333;
 }
 
 .entireGrid {

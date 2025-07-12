@@ -2,12 +2,12 @@
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 4.296vw;
-height: 2.344vw;
-width: 2.344vw;
+font-size: 4vw;
+height: 2.1vw;
+width: 2.1vw;
 border: 0.118vw solid #000;
 border-radius: 0.782vw;
-padding: 1.563vw;
+padding: 1.3vw;
 /*font-size: 55px;
 height: 30px;
 width: 30px;
@@ -83,10 +83,13 @@ top: 530px;
 }
 
 .questions {
-height: 74px;
+/*height: 74px;
 width: 455px;
+font-size: 15px;*/
+height: 5.3vw;
+width: 33vw;
+font-size: 1vw;
 vertical-align: middle;
-font-size: 15px;
 font-weight: bold;
 font-family: "Trebuchet MS";
 display: flex;

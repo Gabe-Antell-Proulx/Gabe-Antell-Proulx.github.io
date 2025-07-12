@@ -14,6 +14,19 @@ position: absolute;
 }
 
 .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(4, 1fr);    /* 4 rows */
+  gap: 10px;
+  width: 80vw;
+  height: 80vw;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 50px auto;
+  border: 2px solid #333;
+}
+
+.entireGrid {
 justify-content: center;
 align-items: center;
 position: absolute;

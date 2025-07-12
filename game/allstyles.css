@@ -428,33 +428,45 @@ tab-size: 8;
 
 .row-1 {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(10, 35px);
+  /*gap: 10px;
+  grid-template-columns: repeat(10, 35px);*/
+  gap: 0.65vw;
+  grid-template-columns: repeat(10, 2.4vw)
 }
 
 .row-2 {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(9, 35px);
+  /*gap: 10px;
+  grid-template-columns: repeat(9, 35px);*/
+  gap: 0.65vw;
+  grid-template-columns: repeat(9, 2.4vw);
 }
 
 .row-3 {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(9, 35px);
+  /*gap: 10px;
+  grid-template-columns: repeat(9, 35px);*/
+  gap: 0.65vw;
+  grid-template-columns: repeat(9, 2.4vw);
 }
 
 .key-button {
-  padding: 15px;
-  font-weight: bold;
-  margin: auto;
-  font-family: "Trebuchet MS";
+  /*padding: 15px;
   font-size: 18px;
-  background-color: #ddd;
   border: 0px;
   border-radius: 6px;
   height: 5px;
-  width: 3px;
+  width: 3px;*/
+  padding: 1vw;
+  font-size: 1.2vw;
+  border: 0vw;
+  border-radius: 0.4vw;
+  height: 0.3vw;
+  width: 0.1vw;
+  background-color: #ddd;
+  font-weight: bold;
+  margin: auto;
+  font-family: "Trebuchet MS";
   cursor: pointer;
   transition: background-color 0.2s;
   display: flex;

@@ -24,9 +24,9 @@ box-sizing: border-box;
 .grid {
   display: grid;
   left:0vw;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns */
-  grid-template-rows: repeat(4, 1fr);    /* 4 rows */
-  gap: 0.4em;
+  grid-template-columns: repeat(4, minmax(10px, 4.936vw)); /* 4 columns */
+  grid-template-rows: repeat(4, minmax(10px, 4.936vw));    /* 4 rows */
+  gap: 0.4vw;
 }
 
 .outerWrapper {

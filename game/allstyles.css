@@ -3,11 +3,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 4vw;
-height: 2.1vw;
-width: 2.1vw;
+height: 4.936vw;
+width: 4.936vw;
 border: 0.118vw solid #000;
 border-radius: 0.782vw;
-padding: 0.3vw;
+padding: 1.3vw;
 /*font-size: 55px;
 height: 30px;
 width: 30px;
@@ -28,12 +28,14 @@ box-sizing: border-box;
 
 .entireGrid {
 justify-content: center;
-align-items: center;
-position: relative;
+position: absolute;
 left: 50%;
 /*width:795px;*/
 transform: translateX(-50%);
 top: 190px;
+display: flex;
+flex-direction: column;
+  align-items: center;
 }
 
 .hidden {

@@ -2,7 +2,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 6vw;
+font-size: 5vw;
 height: 4.936vw;
 width: 4.936vw;
 min-width: 10px; 
@@ -85,7 +85,7 @@ position: absolute;
 width:320px;
 left: 50%;
 transform: translate(-50%);
-top: 340px;
+top: 23vw;
 }
 
 .questions {

@@ -2,9 +2,11 @@
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 4vw;
+font-size: calc(20px + 4vw);
 height: 4.936vw;
 width: 4.936vw;
+min-width: 10px; 
+min-height: 10px; 
 border: 0.118vw solid #000;
 border-radius: 0.782vw;
 padding: 1.3vw;

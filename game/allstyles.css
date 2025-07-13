@@ -23,24 +23,21 @@ box-sizing: border-box;
 
 .grid {
   display: grid;
+  left:0vw;
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
   grid-template-rows: repeat(4, 1fr);    /* 4 rows */
   gap: 0.4em;
 }
 
+.outerWrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 190px;
+}
+
 .entireGrid {
-justify-content: center;
 position: relative;
-margin: 0 auto;
-left: 50%;
-/*width:795px;
-  top: 190px;*/
-transform: translateX(-50%);
-display: flex;
-top: 190px;
-  width: 60vw;
-flex-direction: column;
-  align-items: center;
 }
 
 .hidden {

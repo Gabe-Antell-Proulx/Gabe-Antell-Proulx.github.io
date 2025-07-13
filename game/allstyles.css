@@ -30,7 +30,8 @@ box-sizing: border-box;
 
 .entireGrid {
 justify-content: center;
-position: absolute;
+position: relative;
+margin: 0 auto;
 left: 50%;
 /*width:795px;
   top: 190px;*/

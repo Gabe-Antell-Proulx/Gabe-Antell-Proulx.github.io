@@ -18,7 +18,7 @@ function createKeyButton(keyValue) {
     button.textContent = '↵';
     button.style.width = '1vw';
       button.id = "key-enter";
-    button.style.transform = 'translate(0.91vw)';
+    button.style.transform = 'translate(-0.91vw)';
   }
   if (keyValue == '') {
     button.id = "key-backspace";

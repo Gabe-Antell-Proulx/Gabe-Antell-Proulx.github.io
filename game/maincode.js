@@ -12,11 +12,11 @@ function createKeyButton(keyValue) {
   button.textContent = keyValue;
   if (keyValue == '\b') {
     button.textContent = '⌫';
-    button.style.width = '15px';
+    button.style.width = '1vw';
   }
   if (keyValue == '\r') {
     button.textContent = '↵';
-    button.style.width = '15px';
+    button.style.width = '1vw';
       button.id = "key-enter";
     button.style.transform = 'translate(-13px)';
   }
@@ -334,7 +334,7 @@ function submit(){
               document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).innerHTML = document.getElementById(logger[enter_keys_clicked + x]).innerHTML;
              document.getElementById(logger[enter_keys_clicked + x + (5 * (i-1))]).classList.add("animateCorrectLetter");
             }
-            document.getElementById(logger[enter_keys_clicked+x]).style.border = '1.5px solid black';
+            document.getElementById(logger[enter_keys_clicked+x]).style.border = '0.118vw solid black';
           }
         }, i * 200);
       }
@@ -419,7 +419,7 @@ document.addEventListener("keydown", (eventb) => {
      var f = keys_clicked + 1;
      if (eventb.keyCode == i && (f % 5) != 0) {
        document.getElementById(logger[keys_clicked]).innerHTML = String.fromCharCode(eventb.keyCode);
-       document.getElementById(logger[keys_clicked]).style.border = '2.5px solid black';
+       document.getElementById(logger[keys_clicked]).style.border = '0.175vw solid black';
        testing[keys_clicked] = String.fromCharCode(eventb.keyCode);
        keys_clicked += 1
      }
@@ -430,7 +430,7 @@ document.addEventListener("keydown", (eventb) => {
        backspace -= 1
      }
      document.getElementById(logger[keys_clicked + backspace - 1]).innerHTML = '';
-     document.getElementById(logger[keys_clicked + backspace - 1]).style.border = '1.5px solid black';
+     document.getElementById(logger[keys_clicked + backspace - 1]).style.border = '0.118vw solid black';
      keys_clicked += backspace - 1;
    }
 

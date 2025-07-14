@@ -33,7 +33,7 @@ box-sizing: border-box;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 190px;
+  top: 30%;
   width: 57vw;
 }
 
@@ -75,7 +75,7 @@ left: 66.3%;
 
 .left-buttons {
   top: 38px;
-right: 76.3%;
+right: 70.3%;
 }
 
 .bottomButtons {

@@ -121,7 +121,7 @@ let artQuestions = currentPuzzle.artQuestions;
 let logger_prompts = [sciQuestions, hisQuestions, culQuestions, artQuestions];
 
 let currentEmoji = currentPuzzle.emoji;
-document.getElementById('themeText').innerHTML = "<center><b><span style='font-size: 2.2vw; top: 20%;'>Theme: " + currentTheme + "</span></b></center>";
+document.getElementById('themeText').innerHTML = "<center><b><span style='font-size: 2.2vw; top: 10%;'>Theme: " + currentTheme + "</span></b></center>";
 document.getElementById('sciq').innerHTML = sciQuestions[0];
 document.getElementById('hisq').innerHTML = hisQuestions[0];
 document.getElementById('culq').innerHTML = culQuestions[0];

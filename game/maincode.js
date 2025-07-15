@@ -78,19 +78,6 @@ function simulateKeyPress(key) {
 document.addEventListener('keydown', (event) => {
 });
 
-function isMobile() {
-    return window.matchMedia("(max-width: 768px)").matches;
-}
-
-if (isMobile()) {
-  const parent = document.querySelector("#all"); // Replace with your parent div's ID or class
-  const childDivs = parent.querySelectorAll("div");
-
-  childDivs.forEach(div => {
-    //div.style.transformOrigin = "top left";
-    //div.style.transform = "scale(0.9)"; // Adjust the scale as needed
-  });
-}
 var avgScore = 0;
 var pageOpen = false;
 var streak = 0;
@@ -131,7 +118,7 @@ let artQuestions = currentPuzzle.artQuestions;
 let logger_prompts = [sciQuestions, hisQuestions, culQuestions, artQuestions];
 
 let currentEmoji = currentPuzzle.emoji;
-document.getElementById('themeText').innerHTML = "<center><b><span style='font-size: 2.2vw; top: 10vh;'>Theme: " + currentTheme + "</span></b></center>";
+document.getElementById('themeText').innerHTML = "<center><b><span style='font-size: 2.2vw; top: 0vh;'>Theme: " + currentTheme + "</span></b></center>";
 document.getElementById('sciq').innerHTML = sciQuestions[0];
 document.getElementById('hisq').innerHTML = hisQuestions[0];
 document.getElementById('culq').innerHTML = culQuestions[0];

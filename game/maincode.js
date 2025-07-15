@@ -6,10 +6,8 @@ const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
 function checkOrientation() {
   if (window.matchMedia("(orientation: portrait)").matches) {
-    console.log("Portrait mode");
     document.getElementById('portraitScreen').style.display='block';
   } else {
-    console.log("Landscape mode");
     document.getElementById('portraitScreen').style.display='none';
   }
 }
@@ -22,7 +20,6 @@ function createKeyButton(keyValue) {
   const button = document.createElement('div');
   button.classList.add('key-button');
   button.id = "key-" + keyValue;
-  console.log(button.id);
   button.textContent = keyValue;
   if (keyValue == '\b') {
     button.textContent = '⌫';
@@ -79,7 +76,6 @@ function simulateKeyPress(key) {
 
 // Example listener to test the event
 document.addEventListener('keydown', (event) => {
-  console.log("Key pressed:"+event.keyCode);
 });
 
 function isMobile() {
@@ -163,7 +159,6 @@ function saveState() {
  update.push(document.getElementById('endpage').innerHTML);
  update.push(question_levels);
  update.push(won);
-  console.log("update: " + update);
  localStorage.removeItem('update');
  localStorage.setItem('update', JSON.stringify(update));
 }
@@ -171,15 +166,11 @@ function loadState() {
  var k = 0;
  var gameStateString = localStorage.getItem('update');
  var gameState = JSON.parse(gameStateString);
-  console.log("GameState1: "+gameState);
  if (gameState == null) {
-   console.log("GameState2: "+gameState);
    saveState();
    var gameStateString = localStorage.getItem('update');
    var gameState = JSON.parse(gameStateString);
-   console.log("GameState3: "+gameState);
  }
- console.log("GameState4: "+gameState);
  if (gameState[51] == number) {
    for (let i = 0; i < logger.length; i++) {
      if (logger[i] != '') {
@@ -371,7 +362,6 @@ function submit(){
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById("key-" + currentAnswers[animationIndex]).style.backgroundColor = '#33A33C';
         document.getElementById("key-" + currentAnswers[animationIndex]).style.color = '#fff';
-        console.log("key-" + currentAnswers[animationIndex]);
         document.getElementById(logger[enter_keys_clicked + animationIndex]).style.color = '#fff';
        document.getElementById(logger_questionPages[animationIndex]).innerHTML += "</ul>✅";
         won[animationIndex] = true;
@@ -456,10 +446,8 @@ document.addEventListener("keydown", (eventb) => {
      }
    }
    if ((f % 5) % (5 - letters_right) == 0) {
-     console.log("Ready to submit!")
      document.addEventListener("keydown", (eventc) => {
        if (eventc.keyCode == 13) {
-       console.log("Submitted!")
         submit();
        }
      });

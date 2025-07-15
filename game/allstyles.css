@@ -21,6 +21,10 @@ background-color: #ffffff;
 box-sizing: border-box;
 }
 
+.hr {
+  top: 10%;
+}
+
 .grid {
   display: grid;
   left:0vw;
@@ -33,7 +37,7 @@ box-sizing: border-box;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 30%;
+  top: 80%;
   width: 57vw;
 }
 

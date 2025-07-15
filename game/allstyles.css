@@ -86,12 +86,12 @@ position: absolute;
 }
 
 .right-buttons {
-top: 4.05vh;
+top: 4.3vh;
 left: 66.3%;
 }
 
 .left-buttons {
-  top: 4.05vh;
+  top: 4.3vh;
 right: 70.3%;
 }
 
@@ -120,7 +120,7 @@ position: absolute;
 }
 
 .end {
-border: 0.5vw solid #000;
+border: 0.2vw solid #000;
 border-radius: 0.67vw;
 color: #000000;
 font-size: 1.33vw;
@@ -256,7 +256,7 @@ visibility: hidden;
 height: 1vw;
 width: 1vw;
 top: 1.33vw;
-left: 32.33vw;
+left: 33.3vw;
 }
 
 .X_stats {
@@ -315,7 +315,7 @@ background-color: #ffffff;
 text-decoration: none;
 justify-content: center;
 align-items: center;
-height: 25.33vw;
+height: 28vw;
 width: 34.67vw;
 position: absolute;
 left: 50%;
@@ -338,7 +338,7 @@ text-decoration: none;
 justify-content: center;
 align-items: center;
 height: 13.33vw;
-width: 26.67vw;
+width: 28vw;
 position: absolute;
 left: 50%;
 transform: translate(-50%);

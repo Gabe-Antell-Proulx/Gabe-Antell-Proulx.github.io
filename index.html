@@ -20,118 +20,159 @@
   <link rel="icon" href="icon.png">
   <style>
     /* index styles */
-.play {
-display: flex;
-justify-content: center;
-color: #000;
-align-items: center;
-font-size:30px;
-height: 25px;
-width: 120px;
-background-color: #fff;
-border: 2px solid #000;
-font-family: "Trebuchet MS";
-border-radius: 10px;
-padding: 20px;
-text-decoration: none;
-}
-
-.split {
-height: 25%;
-width: 100%;
-position: fixed;
-z-index: 0;
-overflow-x: hidden;
-padding-top: 20px;
-}
-
-.up {
-left: 0;
-top:0%;
-background-color: #aaffaa;
-}
-
-.mid {
-left: 0;
-top:25%;
-background-color: #bbffff;
-}
-
-.low {
-left: 0;
-top:50%;
-background-color: #aaccff;
-}
-
-.down {
-right: 0;
-top: 75%;
-background-color: #ddaaff;
-}
-    .instructionsPopUp {
-border: 3px solid #000;
-color: #000000;
-font-size: 13px;
-background-color: #ffffff;
-text-decoration: none;
-justify-content: center;
-align-items: center;
-text-align: left;
-border-radius: 10px;
-height: 450px;
-width: 450px;
-position: absolute;
-left: 50%;
-transform: translate(-50%);
-top: 55px;
-visibility: hidden;
-padding: 30px;
-overflow-y: auto;
-font-family: "Trebuchet MS";
-}
-    .X {
-border: 0px solid #000;
-font-size:25px;
-display: flex;
-color: #000000;
-background: none;
-font: cursive;
-background-color: none;
-position: absolute;
-text-decoration: none;
-justify-content: center;
-align-items: center;
-visibility: hidden;
-}
-
-.X_instructions {
-height: 30px;
-width: 30px;
-top: 20px;
-left: 445px;
-}
-
-.how-to-play {
-  background:none;
-  position:absolute; 
-  top:440px;
-  transform:translate(-50%);
-  border:0; 
-  font-size:20px;
-  color:black;
-  left:50%;
-}
+    .play {
+      display: flex;
+      justify-content: center;
+      color: #000;
+      align-items: center;
+      font-size:2vw;
+      height: 1.667vw;
+      width: 8vw;
+      background-color: #fff;
+      border: 0.13vw solid #000;
+      font-family: "Trebuchet MS";
+      border-radius: 0.67vw;
+      padding: 1.33vw;
+      text-decoration: none;
+      font-weight: bold; 
+      position:absolute; 
+      left:50%; 
+      top:38.4vh;
+      transform: translate(-50%);
+    }
     
-.portraitScreen {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: none;
-  z-index: 9999;
-}
+    .split {
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    overflow-x: hidden;
+    padding-top: 1.33vw;
+    }
+    
+    .up {
+    left: 0;
+    top:0%;
+    background-color: #aaffaa;
+    }
+    
+    .mid {
+    left: 0;
+    top:25%;
+    background-color: #bbffff;
+    }
+    
+    .low {
+    left: 0;
+    top:50%;
+    background-color: #aaccff;
+    }
+    
+    .down {
+    right: 0;
+    top: 75%;
+    background-color: #ddaaff;
+    }
+        .instructionsPopUp {
+    border: 0.2vw solid #000;
+    color: #000000;
+    font-size: 0.9vw;
+    background-color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 0.67vw;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 5.87vh;
+    visibility: hidden;
+    padding: 2vw;
+    overflow-y: auto;
+    font-family: "Trebuchet MS";
+    }
+        .X {
+    border: 0px solid #000;
+    font-size: 1.67vw;
+    display: flex;
+    color: #000000;
+    background: none;
+    font: cursive;
+    background-color: none;
+    position: absolute;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    }
+    
+    .X_instructions {
+    height: 2vw;
+    width: 2vw;
+    top: 2.13vh;
+    left: 29.67vw;
+    }
+    
+    .how-to-play {
+      background:none;
+      position:absolute; 
+      top:46.93vh;
+      transform:translate(-50%);
+      border:0; 
+      font-size:1.33vw;
+      color:black;
+      left:50%;
+    }
+        
+    .portraitScreen {
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+      z-index: 9999;
+    }
+    
+    .line {
+      position:absolute; 
+      left:50%; 
+      transform: translate(-50%); 
+    }
+    
+    .logo {
+      height:10vw; 
+      width:9.67vw; 
+      top: 11.73vh;
+    }
+      
+    .mnemonicle {
+      top: 26.67vh; 
+      font-size:3.33vw; 
+      font-weight: bold;
+    }
+    
+    .dailyTrivia {
+      font-size:1.33vw; 
+      font-weight: normal; 
+      top: 34.13vh;
+    }
+    
+    .numberPuzzle {
+      font-size:1vw; 
+      font-weight: normal; 
+      top: 51.2vh;
+    }
+    
+    .author {
+      font-size:1vw; 
+      font-weight: normal; 
+      top:53.87vh;
+    }
   </style>
 </head>
 
@@ -144,12 +185,12 @@ left: 445px;
 
     <script src="script.js"></script>
     <button onclick="openInstructions()" class='how-to-play'><u>How to play</u></button>      
-    <img src='logo.png' style='height:150px; width:145px; position:absolute; left:50%; top: 110px;transform: translate(-50%); '>
-    <div style="position:absolute; left: 50%; top: 250px; transform: translate(-50%); font-size:50px; font-weight: bold;">Mnemonicle</div>
-    <div style="position:absolute; font-size:20px; font-weight: normal; left:50%; top:320px;transform: translate(-50%); ">A daily trivia game!</div>
-    <div id='number_puzzle' style="position:absolute; font-size:15px; font-weight: normal; left:50%; top:480px;transform: translate(-50%); "></div>
-    <div style="position:absolute; font-size:15px; font-weight: normal; left:50%; top:505px;transform: translate(-50%); ">by Gabriel Antell-Proulx</div>
-    <a href="/game/" class='play' style="font-weight: bold; position:absolute; left:50%; top:360px;transform: translate(-50%);">Play</a>
+    <img src='logo.png' class='line logo'>
+    <div class='line mnemonicle'>Mnemonicle</div>
+    <div class='line dailyTrivia'>A daily trivia game!</div>
+    <div id='number_puzzle' class='line numberPuzzle'></div>
+    <div class='line author'>by Gabriel Antell-Proulx</div>
+    <a href="/game/" class='play'>Play</a>
     <div id='instructionsPage' class='instructionsPopUp'><b>
       <div style="text-align: center;"><font size=+3>How to Play</font><br></b>
       <font size=+1>You have four tries to guess the Mnemonicle<ul></font>

@@ -4,6 +4,20 @@ const today = new Date();
 const startDate = new Date('2025-01-29T19:30:00-07:00');
 const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 
+function checkOrientation() {
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    console.log("Portrait mode");
+    document.getElementById('portraitScreen').style.display='block';
+  } else {
+    console.log("Landscape mode");
+    document.getElementById('portraitScreen').style.display='none';
+  }
+}
+
+checkOrientation();
+
+window.matchMedia("(orientation: portrait)").addEventListener("change", checkOrientation);
+
 function createKeyButton(keyValue) {
   const button = document.createElement('div');
   button.classList.add('key-button');

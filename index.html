@@ -126,6 +126,11 @@ left: 445px;
   width: 100vw;
   height: 100vh;
   background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 9999;
 }
   </style>
 </head>
@@ -164,10 +169,10 @@ left: 445px;
       function checkOrientation() {
         if (window.matchMedia("(orientation: portrait)").matches) {
           console.log("Portrait mode");
-          document.getElementById('portraitScreen').style.visibility='visible';
+          document.getElementById('portraitScreen').style.display='block';
         } else {
           console.log("Landscape mode");
-          document.getElementById('portraitScreen').style.visibility='hidden';
+          document.getElementById('portraitScreen').style.display='none';
         }
       }
       

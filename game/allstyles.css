@@ -66,6 +66,25 @@ position: absolute;
 font-weight:bold;
 }
 
+.leftButtonTemplate {
+display: flex;
+justify-content: center;
+color: #000;
+align-items: center;
+position: absolute;
+font-size: 0.8vw;
+height: 2.5vw;
+width: 8.7vw;
+border: 0.2vw solid #333;
+border-radius: 0.7vw;
+padding: 0.7vw;
+background-color: #fff;
+text-decoration: none;
+visibility: hidden;
+font-family: "Trebuchet MS";
+font-weight: bold;
+}
+
 .buttons {
 justify-content: center;
 align-items: center;
@@ -86,7 +105,7 @@ right: 70.3%;
 justify-content: center;
 align-items: center;
 position: absolute;
-width:320px;
+width: 21.33vw;
 left: 50%;
 transform: translate(-50%);
 top: 23vw;
@@ -110,16 +129,16 @@ position: absolute;
 }
 
 .end {
-border: 3px solid #000;
-border-radius: 10px;
+border: 0.5vw solid #000;
+border-radius: 0.67vw;
 color: #000000;
-font-size: 20px;
+font-size: 1.33vw;
 background-color: #ffffff;
 text-decoration: none;
 justify-content: center;
 align-items: center;
-height: 480px;
-width: 380px;
+height: 32vw;
+width: 25.33vw;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
@@ -127,61 +146,61 @@ top: 50px;
 visibility: hidden;
 text-align: center;
 font-family: "Trebuchet MS";
-padding: 20px;
+padding: 1.33vw;
 }
 
 .questionPagePopUp {
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  height: 520px;
-  width: 700px;
+  height: 34.67vw;
+  width: 46.67vw;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   top: 50px;
   visibility: hidden;
-  font-size:15px;
+  font-size: 1vw;
 }
 
 .questionsPage {
-  border: 3px solid #000;
+  border: 0.2vw solid #000;
   color: #000000;
-  font-size: 12px;
+  font-size: 0.9vw;
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  top:10px;
-  width: 800px;
+  height: 6.67vw;
+  top: 0.67vw;
+  width: 53.33vw;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   visibility: hidden;
   text-align: left;
   font-family: "Trebuchet MS";
-  padding: 25px;
+  padding: 1.67vw;
 }
 
 .questionsPageSci {
-  border-radius: 10px 10px 0 0;
-  top: 0px;
+  border-radius: 0.67vw 0.67vw 0 0;
+  top: 0vw;
   background-color: #ddffdd;
 }
 
 .questionsPageHis {
-  top: 130px;
+  top: 8.67vw;
   background-color: #ddffff;
 }
 
 .questionsPageCul {
-  top: 260px;
+  top: 17.33vw;
   background-color: #cceeff;
 }
 
 .questionsPageArt {
-  top: 390px;
-  border-radius: 0 0 10px 10px;
+  top: 26vw;
+  border-radius: 0 0 0.67vw 0.67vw;
   background-color: #eeddff;
 }
 
@@ -191,15 +210,15 @@ justify-content: center;
 color: #000;
 align-items: center;
 position: absolute;
-left: 135px;
-top: 450px;
-font-size: 17px;
-height: 15px;
-width: 150px;
+left: 9vw;
+top: 30vw;
+font-size: 1.13vw;
+height: 1vw;
+width: 10vw;
 background-color: #fff;
-border: 1px solid #333;
-border-radius: 10px;
-padding: 20px;
+border: 0.07vw solid #333;
+border-radius: 0.67vw;
+padding: 1.33vw;
 text-decoration: none;
 visibility: hidden;
 font-family: "Trebuchet MS";
@@ -207,7 +226,7 @@ font-family: "Trebuchet MS";
 
 .X {
 border: 0px solid #000;
-font-size:25px;
+font-size:1.67vw;
 display: flex;
 color: #000000;
 background: none;
@@ -221,80 +240,61 @@ visibility: hidden;
 }
 
 .X_end {
-height: 30px;
-width: 30px;
-top: 15px;
-left: 375px;
+height: 2vw;
+width: 2vw;
+top: 1vw;
+left: 25vw;
 }
 
 .X_instructions {
-height: 30px;
-width: 30px;
-top: 20px;
-left: 445px;
+height: 2vw;
+width: 2vw;
+top: 1.33vw;
+left: 29.67vw;
 }
 
 .X_questions {
-height: 30px;
-width: 30px;
-top: 17px;
-left: 720px;
+height: 2vw;
+width: 2vw;
+top: 1.13vw;
+left: 48vw;
 visibility: hidden;
 }
 
 .X_information {
-height: 15px;
-width: 15px;
-top: 20px;
-left: 485px;
+height: 1vw;
+width: 1vw;
+top: 1.33vw;
+left: 32.33vw;
 }
 
 .X_stats {
-height: 15px;
-width: 15px;
-top: 20px;
-left: 355px;
+height: 1vw;
+width: 1vw;
+top: 1.67vw;
+left: 23.67vw;
 }
 
 .instructionsPopUp {
-border: 3px solid #000;
+border: 0.2vw solid #000;
 color: #000000;
-font-size: 13px;
+font-size: 0.87vw;
 background-color: #ffffff;
 text-decoration: none;
 justify-content: center;
 align-items: center;
 text-align: left;
-border-radius: 10px;
-height: 450px;
-width: 450px;
+border-radius: 0.67vw;
+height: 30vw;
+width: 30vw;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
-top: 55px;
+top: 3.67vw;
 visibility: hidden;
-padding: 30px;
+padding: 2vw;
 overflow-y: auto;
 font-family: "Trebuchet MS";
-}
-
-.leftButtonTemplate {
-display: flex;
-justify-content: center;
-color: #000;
-align-items: center;
-position: absolute;
-font-size: 0.8vw;
-height: 2.5vw;
-width: 8.7vw;
-border: 0.2vw solid #333;
-border-radius: 0.7vw;
-padding: 0.7vw;
-background-color: #fff;
-text-decoration: none;
-visibility: hidden;
-font-family: "Trebuchet MS";
-font-weight: bold;
 }
 
 .copyscreen {
@@ -303,55 +303,55 @@ justify-content: center;
 color: #ffffff;
 align-items: center;
 position: absolute;
-left: 620px;
-top: 50px;
-font-size: 15px;
-height: 5px;
-width: 170px;
+left: 41.33vw;
+top: 3.33vw;
+font-size: 1vw;
+height: 0.33vw;
+width: 11.33vw;
 background-color: #000000;
-border: 2px solid #000;
-border-radius: 10px;
-padding: 20px;
+border: 0.133vw solid #000;
+border-radius: 0.67vw;
+padding: 1.33vw;
 text-decoration: none;
 font-family: "Trebuchet MS";
 }
 
 .informationPopup {
-border: 3px solid #000;
+border: 0.2vw solid #000;
 color: #000000;
-font-size: 15px;
+font-size: 1vw;
 background-color: #ffffff;
 text-decoration: none;
 justify-content: center;
 align-items: center;
-height: 380px;
-width: 520px;
+height: 25.33vw;
+width: 34.67vw;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
-top: 110px;
+top: 7.33vw;
 visibility: hidden; 
 text-align: center; 
-padding: 15px;
-border-radius: 10px;
+padding: 1vw;
+border-radius: 0.67vw;
 font-family: "Trebuchet MS";
 }
 
 .statsPopup {
-border: 3px solid #000;
+border: 0.2vw solid #000;
 color: #000000;
-border-radius: 10px;
-font-size: 25px;
+border-radius: 0.67vw;
+font-size: 1.67vw;
 background-color: #ffffff;
 text-decoration: none;
 justify-content: center;
 align-items: center;
-height: 200px;
-width: 400px;
+height: 13.33vw;
+width: 26.67vw;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
-top: 250px;
+top: 16.67vw;
 visibility: hidden;
 text-align: center;
 font-family: "Trebuchet MS";
@@ -380,9 +380,9 @@ tab-size: 8;
 }
 
 @keyframes correctLetter {
-  0% { height: 30px; width: 30px; font-size: 55px;}
-  50% { height: 37px; width: 37px; font-size: 67.8px; transform: translate(-3.5px,-3.5px);}
-  100% { height: 30px; width: 30px; font-size: 55px;}
+  0% { height: 4.936vw; width: 4.936vw; font-size: 5vw;}
+  50% { height: 6.088vw; width: 6.088vw; font-size: 6.2vw; transform: translate(-0.576vw,-0.576vw);}
+  100% { height: 4.936vw; width: 4.936vw; font-size: 5vw;}
 }
 
 .animateCorrectLetter {
@@ -391,9 +391,9 @@ tab-size: 8;
 }
 
 @keyframes incorrectLetter {
-  0% { height: 30px; width: 30px; font-size: 55px;}
-  50% { height: 25px; width: 25px; font-size: 45.8px;transform: translate(2.5px,2.5px);}
-  100% { height: 30px; width: 30px; font-size: 55px;}
+  0% { height: 4.936vw; width: 4.936vw; font-size: 5vw;}
+  50% { height: 4.113vw; width: 4.113vw; font-size: 4.2vw;transform: translate(0.411vw,0.411vw);}
+  100% { height: 4.936vw; width: 4.936vw; font-size: 5vw;}
 }
 
 .animateIncorrectLetter {
@@ -465,6 +465,17 @@ tab-size: 8;
 
 .key-button:hover {
   background-color: #ccc;
+}
+
+.portraitScreen {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 9999;
 }
 
 html, body {

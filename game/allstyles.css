@@ -37,7 +37,7 @@ box-sizing: border-box;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 30%;
+  top: 30vh;
   width: 57vw;
 }
 

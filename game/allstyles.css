@@ -1,5 +1,3 @@
-
-
 .blank {
 display: flex;
 justify-content: center;
@@ -23,6 +21,7 @@ box-sizing: border-box;
   text-align: center;
   font-weight: bold;
   margin-bottom: 2vh;
+  top: 2vh;
 }
 
 .mnemonicle-header span {
@@ -37,7 +36,7 @@ box-sizing: border-box;
 
 hr {
   border: none;
-  border-top: 0.2vw solid white;
+  border-top: 0.2vw solid black;
   margin: 2vh auto;
   width: 80%;
 }

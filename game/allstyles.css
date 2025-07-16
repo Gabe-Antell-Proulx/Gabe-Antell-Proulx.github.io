@@ -1,3 +1,5 @@
+
+
 .blank {
 display: flex;
 justify-content: center;
@@ -15,8 +17,29 @@ background-color: #ffffff;
 box-sizing: border-box;
 }
 
-.hr {
-  top: 10%;
+
+.mnemonicle-header {
+  font-family: Impact;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.mnemonicle-header span {
+  font-size: 3.9vw;
+  -webkit-text-stroke: 0.07vw black;
+}
+
+.mn1 { color: #aaffaa; }
+.mn2 { color: #bbffff; }
+.mn3 { color: #aaccff; }
+.mn4 { color: #ddaaff; }
+
+hr {
+  border: none;
+  border-top: 0.2vw solid white;
+  margin: 2vh auto;
+  width: 80%;
 }
 
 .grid {

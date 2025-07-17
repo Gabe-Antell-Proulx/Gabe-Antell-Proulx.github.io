@@ -109,12 +109,12 @@ position: absolute;
 }
 
 .right-buttons {
-top: 3.5vw;
+top: 0vw;
 left: 66.3%;
 }
 
 .left-buttons {
-top: 3.5vw;
+top: 0vw;
 right: 70.3%;
 }
 
@@ -376,7 +376,7 @@ tab-size: 8;
   font-family: 'Trebuchet MS';
   font-size: 2.2vw;
   position: relative;
-  top: 10vh;
+  top: 5vh;
   text-align: center;
   font-weight: bold;
 }

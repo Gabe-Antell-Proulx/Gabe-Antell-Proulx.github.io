@@ -19,7 +19,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="icon.png">
   <style>
-    /* index styles */
     .play {
       display: flex;
       justify-content: center;
@@ -148,31 +147,44 @@
     .logo {
       height:10vw; 
       width:9.67vw; 
-      top: 7.33vw;
+      top: 0vw;
     }
       
     .mnemonicle {
-      top: 16.67vw; 
-      font-size:3.33vw; 
+      top: 9.33vw; 
+      font-size: 3.33vw; 
       font-weight: bold;
     }
     
     .dailyTrivia {
       font-size:1.33vw; 
       font-weight: normal; 
-      top: 21.33vw;
+      top: 14vw;
     }
     
     .numberPuzzle {
       font-size:1vw; 
       font-weight: normal; 
-      top: 32vw;
+      top: 24.67vw;
     }
     
     .author {
       font-size:1vw; 
       font-weight: normal; 
-      top:33.67vw;
+      top:26.33vw;
+    }
+    
+    .disable-selection {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+    }
+
+    .lines {
+    top: 50vh;
+    transform: translateY(-50%);
+    height: 27.33vw;
     }
   </style>
 </head>
@@ -185,13 +197,15 @@
     <div class="split down"></div>
 
     <script src="script.js"></script>
-    <button onclick="openInstructions()" class='how-to-play'><u>How to play</u></button>      
-    <img src='logo.png' class='line logo'>
-    <div class='line mnemonicle'>Mnemonicle</div>
-    <div class='line dailyTrivia'>A daily trivia game!</div>
-    <div id='number_puzzle' class='line numberPuzzle'></div>
-    <div class='line author'>by Gabriel Antell-Proulx</div>
-    <a href="/game/" class='play'>Play</a>
+    <div class='lines'>
+      <button onclick="openInstructions()" class='how-to-play'><u>How to play</u></button>      
+      <img src='logo.png' class='line logo'>
+      <div class='line mnemonicle'>Mnemonicle</div>
+      <div class='line dailyTrivia'>A daily trivia game!</div>
+      <div id='number_puzzle' class='line numberPuzzle'></div>
+      <div class='line author'>by Gabriel Antell-Proulx</div>
+      <a href="/game/" class='play'>Play</a>
+    </div>
     <div id='instructionsPage' class='instructionsPopUp'><b style="font-size: 2vw;">
       <div style="text-align: center;">How to Play<br></b>
       <span style="font-size: 1.37vw;">You have four tries to guess the Mnemonicle<ul></span></div>

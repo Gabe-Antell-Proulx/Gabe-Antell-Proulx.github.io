@@ -19,27 +19,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="icon.png">
   <style>
-    .play {
-      display: flex;
-      justify-content: center;
-      color: #000;
-      align-items: center;
-      font-size:2vw;
-      height: 1.667vw;
-      width: 8vw;
-      background-color: #fff;
-      border: 0.13vw solid #000;
-      font-family: "Trebuchet MS";
-      border-radius: 0.67vw;
-      padding: 1.33vw;
-      text-decoration: none;
-      font-weight: bold; 
-      position:absolute; 
-      left: 50%; 
-      top: 24vw;
-      transform: translate(-50%);
-    }
-    
     .split {
       height: 25%;
       width: 100%;
@@ -115,17 +94,6 @@
       top: 1.33vw;
       left: 29.67vw;
     }
-    
-    .how-to-play {
-      background:none;
-      position:absolute; 
-      top: 29.33vw;
-      transform:translate(-50%);
-      border:0; 
-      font-size:1.33vw;
-      color:black;
-      left:50%;
-    }
         
     .portraitScreen {
       width: 100vw;
@@ -143,11 +111,37 @@
       left:50%; 
       transform: translate(-50%); 
     }
+
+      .how-to-play {
+    background:none;
+    top: 22vw;
+    border:0; 
+    font-size:1.33vw;
+    color:black;
+    }
     
     .logo {
       height:10vw; 
       width:9.67vw; 
       top: 0vw;
+    }
+    
+      .play {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    align-items: center;
+    font-size:2vw;
+    height: 1.667vw;
+    width: 8vw;
+    background-color: #fff;
+    border: 0.13vw solid #000;
+    font-family: "Trebuchet MS";
+    border-radius: 0.67vw;
+    padding: 1.33vw;
+    text-decoration: none;
+    font-weight: bold; 
+    top: 16.67vw;
     }
       
     .mnemonicle {
@@ -182,9 +176,10 @@
     }
 
     .lines {
-    top: 50vh;
+    top: 50vh
     transform: translateY(-50%);
     height: 27.33vw;
+    position: relative;
     }
   </style>
 </head>
@@ -198,13 +193,13 @@
 
     <script src="script.js"></script>
     <div class='lines'>
-      <button onclick="openInstructions()" class='how-to-play'><u>How to play</u></button>      
+      <button onclick="openInstructions()" class='line how-to-play'><u>How to play</u></button>      
       <img src='logo.png' class='line logo'>
       <div class='line mnemonicle'>Mnemonicle</div>
       <div class='line dailyTrivia'>A daily trivia game!</div>
       <div id='number_puzzle' class='line numberPuzzle'></div>
       <div class='line author'>by Gabriel Antell-Proulx</div>
-      <a href="/game/" class='play'>Play</a>
+      <a href="/game/" class='line play'>Play</a>
     </div>
     <div id='instructionsPage' class='instructionsPopUp'><b style="font-size: 2vw;">
       <div style="text-align: center;">How to Play<br></b>

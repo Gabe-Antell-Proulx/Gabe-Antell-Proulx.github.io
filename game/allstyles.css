@@ -309,7 +309,24 @@ visibility: hidden;
 padding: 2vw;
 overflow-y: auto;
 font-family: "Trebuchet MS";
+
+/*new*/
+height: auto;
+max-height: 80vh;
+/*new*/
 }
+
+/*new*/
+@media (max-width: 768px) {
+    .instructionsPopUp {
+        font-size: 3.5vw;   /* larger text for small screens */
+        width: 85vw;        /* make popup wider for readability */
+        padding: 4vw;       /* increase padding proportionally */
+        border-radius: 2vw; /* softer corners on mobile */
+        top: 5vh;           /* space from top */
+    }
+}
+/*new*/
 
 .copyscreen {
 display: flex;

@@ -264,7 +264,7 @@ left: 25vw;
 height: 2vw;
 width: 2vw;
 top: 1.33vw;
-left: 29.67vw;
+left: 37vw;
 }
 
 .X_questions {
@@ -299,7 +299,7 @@ justify-content: center;
 align-items: center;
 text-align: left;
 border-radius: 0.67vw;
-height: 47vw;
+height: 95vw;
 width: 40vw;
 position: absolute;
 left: 50%;
@@ -317,7 +317,7 @@ max-height: 80vh;
 /*new*/
 }
 
-/*new*/
+/*
 @media (max-width: 768px) {
     .instructionsPopUp {
         font-size: 3.5vw;   /* larger text for small screens */
@@ -327,7 +327,7 @@ max-height: 80vh;
         top: 5vh;           /* space from top */
     }
 }
-/*new*/
+*/
 
 .copyscreen {
 display: flex;

@@ -305,16 +305,15 @@ position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%,50%);
-top: 3.67vw;
+/*top: 3.67vw;*/
 visibility: hidden;
 padding: 2vw;
 overflow-y: auto;
 font-family: "Trebuchet MS";
-
-/*new*/
+/*
 height: auto;
 max-height: 80vh;
-/*new*/
+*/
 }
 
 /*

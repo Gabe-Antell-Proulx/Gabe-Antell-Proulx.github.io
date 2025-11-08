@@ -260,11 +260,11 @@ top: 1vw;
 left: 25vw;
 }
 
-.X_instructions {
-height: 2vw;
-width: 2vw;
-top: 1.33vw;
-left: 37vw;
+.X_instructions { 
+  height: 2vw; 
+  width: 2vw; 
+  top: 1.33vw; 
+  left: 29.67vw; 
 }
 
 .X_questions {
@@ -290,30 +290,25 @@ left: 25.67vw;
 }
 
 .instructionsPopUp {
-border: 0.2vw solid #000;
-color: #000000;
-font-size: 0.87vw;
-background-color: #ffffff;
-text-decoration: none;
-justify-content: center;
-align-items: center;
-text-align: left;
-border-radius: 0.67vw;
-height: 47vw;
-width: 40vw;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%,50%);
-/*top: 3.67vw;*/
-visibility: hidden;
-padding: 2vw;
-overflow-y: auto;
-font-family: "Trebuchet MS";
-/*
-height: auto;
-max-height: 80vh;
-*/
+  border: 0.2vw solid #000;
+  color: #000000;
+  font-size: 0.9vw;
+  background-color: #ffffff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 0.67vw;
+  height: 32vw;
+  width: 30vw;
+  position: absolute;
+  left: 50%;
+  top:-50%;
+  transform: translate(-50%,50%);
+  visibility: hidden;
+  padding: 2vw;
+  overflow-y: auto;
+  font-family: "Trebuchet MS";
 }
 
 /*

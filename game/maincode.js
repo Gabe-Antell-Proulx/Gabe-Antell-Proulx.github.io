@@ -1,8 +1,12 @@
 import { puzzles } from './constants.js';
+
 const today = new Date();
-//change the start date, abc
 const startDate = new Date('2025-01-29T19:30:00-07:00');
-const number = 1 + Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+
+// Number of milliseconds in one week
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+const number = 1 + Math.floor((today - startDate) / WEEK_MS);
 
 function checkOrientation() {
   if (window.matchMedia("(orientation: portrait)").matches) {

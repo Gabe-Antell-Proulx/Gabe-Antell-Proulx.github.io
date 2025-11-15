@@ -231,10 +231,14 @@
       
       window.matchMedia("(orientation: portrait)").addEventListener("change", checkOrientation);
       
-      //change startDate to start date
       const today = new Date();
-      const startDate = new Date('2024-12-12T18:30:00-07:00');
-      const number = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+      const startDate = new Date('2025-01-29T19:30:00-07:00');
+      
+      // Number of milliseconds in one week
+      const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+      
+      const number = 1 + Math.floor((today - startDate) / WEEK_MS);
+      
       document.getElementById('number_puzzle').innerHTML = "Mnemonicle #" + number;
       function Xout(page, X){
         document.getElementById(page).style.visibility = 'hidden';

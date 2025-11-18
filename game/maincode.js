@@ -509,5 +509,5 @@ function copy() {
  setTimeout(function () {
    document.getElementById('copyscreen').style.visibility = 'hidden';
  }, 1500);
-  window.copy = copy;
 }
+  window.copy = copy;

@@ -337,9 +337,10 @@ width: 11.33vw;
 background-color: #000000;
 border: 0.133vw solid #000;
 border-radius: 0.67vw;
-padding: 1.33vw;
+padding: 1vw 2vw;
 text-decoration: none;
 font-family: "Trebuchet MS";
+z-index: 9999;
 }
 
 .informationPopup {

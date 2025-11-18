@@ -324,24 +324,22 @@ left: 25.67vw;
 */
 
 .copyscreen {
-display: flex;
-justify-content: center;
-color: #ffffff;
-align-items: center;
-position: absolute;
-left: 41.33vw;
-top: 0vw;
-font-size: 1vw;
-height: 3.33vw;
-width: 11.33vw;
-background-color: #000000;
-border: 0.133vw solid #000;
-border-radius: 0.67vw;
-padding: 1.33vw;
-text-decoration: none;
-font-family: "Trebuchet MS";
-z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 41.33vw;
+  top: 3.33vw;
+  font-size: 1vw;
+  padding: 1vw 2vw;
+  background-color: #000;
+  color: #fff;
+  border: 0.133vw solid #000;
+  border-radius: 0.67vw;
+  font-family: "Trebuchet MS";
+  z-index: 9999;
 }
+
 
 .informationPopup {
 border: 0.2vw solid #000;

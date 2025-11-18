@@ -485,6 +485,7 @@ function win() {
  saveState();
 }
 function copy() {
+  console.log("Copied!")
  copyresults = '';
  for (let i = 0; i < 4; i++) {
    for (let k = 0; k < 4; k++) {

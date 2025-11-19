@@ -1,6 +1,6 @@
 import { puzzles } from './constants.js';
 
-document.getElementById("copyscreen).classList.toggle('copyscreenclass');
+document.getElementById("copyscreen").classList.toggle('copyscreenclass');
 
 const today = new Date();
 const startDate = new Date('2025-11-17T19:30:00-07:00');

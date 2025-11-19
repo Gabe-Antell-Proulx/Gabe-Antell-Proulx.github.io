@@ -338,6 +338,7 @@ left: 25.67vw;
   border-radius: 0.67vw;
   font-family: "Trebuchet MS";
   z-index: 9999;
+  visibility: hidden
 }
 
 

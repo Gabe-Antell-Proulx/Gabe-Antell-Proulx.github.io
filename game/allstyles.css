@@ -314,11 +314,11 @@ left: 25.67vw;
 /*
 @media (max-width: 768px) {
     .instructionsPopUp {
-        font-size: 3.5vw;   /* larger text for small screens */
-        width: 85vw;        /* make popup wider for readability */
-        padding: 4vw;       /* increase padding proportionally */
-        border-radius: 2vw; /* softer corners on mobile */
-        top: 5vh;           /* space from top */
+        font-size: 3.5vw;
+        width: 85vw; 
+        padding: 4vw; 
+        border-radius: 2vw; 
+        top: 5vh;          
     }
 }
 */

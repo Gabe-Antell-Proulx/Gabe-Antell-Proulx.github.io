@@ -45,7 +45,7 @@ export const puzzles = [
   fullanswers: ['<b>T</b>orque', "George <b>W</b>ashington", "<b>I</b>reland", '<b>X</b>ylophone'],
   sciQuestions: ["Sci: It is equal to the time derivative of angular momentum.","Sci: The net amount of this quantity sums to zero in any kind of statics problem.",'Sci: This quantity is defined as the cross product of a force and its lever arm.','Sci: This is known as the twisting force in physics.'],
   hisQuestions: ["His: The signing of Jay's Treaty and the Whiskey Rebellion occurred during this man's Presidency. (Surname)",'His: In one of his more famous addresses, he opposed the creation of political parties. (Surname)','His: Contrary to modern belief, his teeth were actually made from ivory and metal. (Surname)','His: This founding father decided to only run for two terms, leading his vice president, John Adams, to run for and become president. (Surname)'],
-  culQuestions:["Cul: The name of this country in its native language 'Eire.'","Cul: This country's current president is quaintly named Michael D. Higgins.","Cul: A 1988 act forbids the unifying of this island country with its northern counterpart.","Cul: In a recent election, this country's Dáil Éireann met in Dublin to decide the nation's next prime minister."],
+  culQuestions:["Cul: The name of this country in its native language 'Eire.'","Cul: This country's current president is Catherine Connolly.","Cul: A 1988 act forbids the unifying of this island country with its northern counterpart.","Cul: In a recent election, this country's Dáil Éireann met in Dublin to decide the nation's next prime minister."],
   artQuestions:['Art: The name of this instrument has greek roots, with its first half meaning "wood," and its second half meaning "sound."','Art: Instruments similar to this one include the glockenspiel, marimba and vibraphone.','Art: Camille Saint-Saens used this instrument to imitate the sounds of bones.','Art: The music from this instrument comes from a mallet hitting different sized wooden bars.'],
   emoji: '🍫'
 },
@@ -1033,7 +1033,36 @@ artQuestions:[
     "Art: This traditionally German first name is shared by Wittgenstein, Mies van der Rohe, and a famous composer."
   ],
   emoji: '🚫' 
+},
+{
+  answers: ['W', 'O', 'O', 'F'],
+  theme: "Lab report", 
+  fullanswers: ['<b>W</b>orms', '<b>O</b>range', "<b>O</b>utKast", 'Ella <b>F</b>itzgerald'],
+  sciQuestions: [ 
+    "Sci: The supposedly deadly Mongolian olgoi-khorkhoi is one of these animals.", 
+    "Sci: Annelids and nematodes are among the types of these animals.", 
+    "Sci: These animals have five simple, arch-shaped hearts that pump blood.", 
+    'Sci: Bibliophiles are said to be the "book" type of these animals.'
+  ],
+  hisQuestions: [ 
+    "His: A river with this name flows from the Drakensberg Mountains in Lesotho westward across South Africa to the Atlantic Ocean.", 
+    "His: Disneyland resides in a county with this name.",
+    "His: William III was also named William of [this].", 
+    "His: California's state flower, the California poppy, is this color."
+  ], 
+  culQuestions:[ 
+    "Cul: This duo was originally named '2 Shades Deep.'", 
+    "Cul: This duo's first hit album was the 1994 debut Southernplayalisticadillacmuzik.", 
+    "Cul: This duo's most famous song is 'Hey Ya!'", 
+    "Cul: This is the official name of the hip-hop duo of Andre 5000 and Big Boi."
+  ], 
+  artQuestions:[
+    'Art: In a performance in West Berlin, this artist improvised lyrics to the jazz standard "Mack the Knife." (Surname)', 
+    "Art: This singer was homeless for the year before her big break, winning an amateur contest at the Apollo Theater in 1934. (Surname)",
+        'Art: This artist included her signature scat singing on songs like "A-Tisket, A-Tasket." (Surname)', 
+    'Art: This jazz musician was known as the "First Lady of Song." (Surname)'
+  ],
+  emoji: '🐶' 
 }
-
 
 ]

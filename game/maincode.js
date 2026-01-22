@@ -1,7 +1,7 @@
 import { puzzles } from './constants.js';
 
 const today = new Date();
-const startDate = new Date('2025-11-17T19:30:00-07:00');
+const startDate = new Date('2026-01-22T00:00:00-08:00');
 
 // Number of milliseconds in one week
 const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
@@ -485,7 +485,6 @@ function win() {
  saveState();
 }
 function copy() {
-  console.log("Copied!")
  copyresults = '';
  for (let i = 0; i < 4; i++) {
    for (let k = 0; k < 4; k++) {
